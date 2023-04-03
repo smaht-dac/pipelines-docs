@@ -1,2 +1,3 @@
-# pipelines-docs
-documentation for bioinformatics pipelines
+# Pipelines Documentation 
+
+Documentation for the bioinformatics pipelines.
