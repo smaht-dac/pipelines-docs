@@ -1,0 +1,8 @@
+docs_list_title: TEST Documentation
+docs:
+
+- title: Pipeline1
+  url: pipeline_1.md
+
+- title: Pipeline2
+  url: pipeline_2.md
