@@ -3,6 +3,7 @@ items:
   - title: Docs
     subtitle: Documentation for analysis pipelines
     icon: fa-copy
+    call_to_action_name: Call to action 1
     call_to_action_link: /docs/
   - title: Code
     subtitle: Source code for analysis pipelines
