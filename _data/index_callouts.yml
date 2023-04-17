@@ -1,13 +1,13 @@
 style: is-light
 items:
   - title: Docs
-    # subtitle: Documentation for analysis pipelines
+    subtitle: Documentation for analysis pipelines
     icon: fa-copy
-    call_to_action_name: Documentation for analysis pipelines
+    call_to_action_name: Documentation
     call_to_action_link: /docs/
   - title: Code
-    # subtitle: Source code for analysis pipelines
+    subtitle: Source code for analysis pipelines
     icon: fa-github
     icon_brand: true
-    call_to_action_name: Source code for analysis pipelines
+    call_to_action_name: Source Code
     call_to_action_link: https://github.com/smaht-dac/shared-pipelines

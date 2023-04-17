@@ -1,11 +1,11 @@
-- label: Pipelines A
+- label: Pipelines Block 1
   items:
     - name: Pipeline 1
-      link: /docs/pipelines/pipeline_1/
+      link: /docs/pipelines/pipeline_1_A/
     - name: Pipeline 2
       link: /docs/pipelines/pipeline_2/
 
-- label: Pipelines B
+- label: Pipelines Block 2
   items:
     - name: Pipeline 3
       link: /docs/pipelines/pipeline_3/
