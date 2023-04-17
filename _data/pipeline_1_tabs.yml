@@ -4,7 +4,5 @@ size: is-large
 items:
   - name: Pipeline 1 A
     link: /docs/pipelines/pipeline_1_A/
-    icon: fa-square
   - name: Pipeline 1 B
     link: /docs/pipelines/pipeline_1_B/
-    icon: fa-square
