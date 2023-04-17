@@ -17,8 +17,8 @@
       items:
         - name: Pipeline 1 A
           link: /docs/pipelines/pipeline_1_A/
-        - name: Pipeline 2 B
-          link: /docs/pipelines/pipeline_2_B/
+        - name: Pipeline 1 B
+          link: /docs/pipelines/pipeline_1_B/
     - name: Pipeline 2
       link: /docs/pipelines/pipeline_2/
 
