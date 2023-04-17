@@ -1,6 +1,7 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 
-show_sidebar: false
-menubar: menubar
-
 permalink: pretty
+
+show_sidebar: false
+
+menubar: menubar

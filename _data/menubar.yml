@@ -1,9 +1,7 @@
 - label: Example Menu
   items:
-    - name: Home
-      link: /
     - name: Pages
-      link: #
+      link: /#
       items:
         - name: Pipeline 1
           link: /pipeline_1/
