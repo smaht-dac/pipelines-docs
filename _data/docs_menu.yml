@@ -13,8 +13,7 @@
 - label: Pipelines Block 1
   items:
     - name: Pipeline 1
-      # link: /docs/pipelines/pipeline_1/
-      link: #
+      link: /docs/pipelines/pipeline_1/
       items:
         - name: Pipeline 1 A
           link: /docs/pipelines/pipeline_1_A/
