@@ -1,10 +1,11 @@
 ---
 title: Index
-subtitle: I am the index page
+subtitle: Subtitle
 layout: page
+callouts: index_callouts
 show_sidebar: true
 ---
 
-## INDEX
+## TITLE
 
 I am the index page
