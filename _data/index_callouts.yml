@@ -11,3 +11,8 @@ items:
     icon_brand: true
     call_to_action_name: Source Code
     call_to_action_link: https://github.com/smaht-dac/shared-pipelines
+  - title: Data Portal
+    subtitle: Data Portal
+    icon: fa-database
+    call_to_action_name: Portal
+    call_to_action_link: https://github.com/smaht-dac
