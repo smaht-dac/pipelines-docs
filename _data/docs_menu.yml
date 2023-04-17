@@ -1,0 +1,6 @@
+- label: Pipelines
+  items:
+    - name: Pipeline 1
+      link: /pipeline_1/
+    - name: Pipeline 2
+      link: /pipeline_2/

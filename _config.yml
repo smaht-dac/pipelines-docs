@@ -1,7 +1,3 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 
 permalink: pretty
-
-show_sidebar: false
-
-menubar: menubar

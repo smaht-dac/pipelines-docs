@@ -1,5 +1,6 @@
 ---
-id: pipeline-2
+layout: page
+title: Pipeline 2
 ---
 
 ## Pipeline 2
