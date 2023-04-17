@@ -2,6 +2,8 @@ alignment: is-left
 style: is-boxed
 size: is-large
 items:
+  - name: Pipeline 1
+    link: /docs/pipelines/pipeline_1/
   - name: Pipeline 1 A
     link: /docs/pipelines/pipeline_1_A/
   - name: Pipeline 1 B

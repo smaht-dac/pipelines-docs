@@ -1,7 +1,24 @@
+# - label: Pipelines Block 1
+#   items:
+#     - name: Pipeline 1
+#       link: /docs/pipelines/pipeline_1_A/
+#     - name: Pipeline 2
+#       link: /docs/pipelines/pipeline_2/
+#
+# - label: Pipelines Block 2
+#   items:
+#     - name: Pipeline 3
+#       link: /docs/pipelines/pipeline_3/
+
 - label: Pipelines Block 1
   items:
     - name: Pipeline 1
-      link: /docs/pipelines/pipeline_1_A/
+      link: /docs/pipelines/pipeline_1/
+      items:
+        - name: Pipeline 1 A
+          link: /docs/pipelines/pipeline_1_A/
+        - name: Pipeline 2 B
+          link: /docs/pipelines/pipeline_2_B/
     - name: Pipeline 2
       link: /docs/pipelines/pipeline_2/
 
