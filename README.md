@@ -1,3 +1,11 @@
-# Pipelines Documentation
+---
+layout: page
+title: Pipelines Documentation
+subtitle: This is the documentation for the bioinformatics pipelines
+callouts: home_callouts
+show_sidebar: true
+---
 
-Documentation for the bioinformatics pipelines.
+# Title
+
+I am a text

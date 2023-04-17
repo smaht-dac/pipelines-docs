@@ -5,4 +5,4 @@ menubar: docs_menu
 show_sidebar: false
 ---
 
-I am a doc page
+I am a Documentation page
