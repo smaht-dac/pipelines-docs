@@ -1,0 +1,8 @@
+alignment: is-left
+style: is-boxed
+size: is-large
+items:
+  - name: Short Reads, Illumina
+    link: /docs/pipelines/short_reads_illumina/
+  - name: BWA-MEM
+    link: /docs/pipelines/bwa_mem/

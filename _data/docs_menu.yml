@@ -1,28 +1,18 @@
-# - label: Pipelines Block 1
-#   items:
-#     - name: Pipeline 1
-#       link: /docs/pipelines/pipeline_1_A/
-#     - name: Pipeline 2
-#       link: /docs/pipelines/pipeline_2/
-#
-# - label: Pipelines Block 2
-#   items:
-#     - name: Pipeline 3
-#       link: /docs/pipelines/pipeline_3/
 
-- label: Pipelines Block 1
+######################################################################
+#   Alignment Pipelines
+######################################################################
+
+- label: Alignment Pipelines
   items:
-    - name: Pipeline 1
-      link: /docs/pipelines/pipeline_1/
+    - name: Short Reads, Illumina
+      link: /docs/pipelines/short_reads_illumina/
       items:
-        - name: Pipeline 1 A
-          link: /docs/pipelines/pipeline_1_A/
-        - name: Pipeline 1 B
-          link: /docs/pipelines/pipeline_1_B/
-    - name: Pipeline 2
-      link: /docs/pipelines/pipeline_2/
+        - name: BWA-MEM
+          link: /docs/pipelines/bwa_mem/
 
-- label: Pipelines Block 2
-  items:
-    - name: Pipeline 3
-      link: /docs/pipelines/pipeline_3/
+    - name: Long Reads, PacBio HiFi
+      link: /docs/pipelines/long_reads_pacbio-hifi/
+      items:
+        - name: pbmm2
+          link: /docs/pipelines/pbmm2/

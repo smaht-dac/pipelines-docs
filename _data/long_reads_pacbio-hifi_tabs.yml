@@ -1,0 +1,8 @@
+alignment: is-left
+style: is-boxed
+size: is-large
+items:
+  - name: Long Reads, PacBio HiFi
+    link: /docs/pipelines/long_reads_pacbio-hifi/
+  - name: pbmm2
+    link: /docs/pipelines/pbmm2/
