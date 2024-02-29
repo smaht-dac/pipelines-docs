@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Short-Read Illumina
+title: Short-Read Illumina, Paired-End
 menubar: docs_menu
-tabs: short_read_illumina_tabs
+tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
 ---
 
 # Paired-End Short-Read Alignment Pipeline
 
-The paired-end short-read alignment pipeline follows to the Genome Analysis Toolkit (GATK) Best Practices. It is designed for per-sample and per-library execution, handling one or multiple sets of paired FASTQ files. The pipeline is optimized for distributed processing, requiring each pair of FASTQ files to correspond to a single sequencing lane.
+The paired-end short-read alignment pipeline follows the Genome Analysis Toolkit (GATK) Best Practices. It is designed for per-sample and per-library execution, handling one or multiple sets of paired FASTQ files. The pipeline is optimized for distributed processing, requiring each pair of FASTQ files to correspond to a single sequencing lane.
 
 ## Key Pipeline Steps:
 
 1. **Alignment with BWA-MEM:** Initial alignment of the raw reads to the reference genome.
-2. **Adding Read Groups:** Assignment of reads to specific groups, providing essential information for subsequent steps.
-3. **Marking Duplicates:** Identification and labeling of duplicate reads, originating during library preparation or as sequencing artifacts.
+2. **Assign Read Groups:** Assignment of reads to specific groups, providing essential information for subsequent steps.
+3. **Mark Duplicates:** Identification and labeling of duplicate reads, originating during library preparation or as sequencing artifacts.
 4. **Base Quality Score Recalibration:** Recalibration of base quality scores, including indels, resulting in the generation of a refined, analysis-ready BAM file.
 
 To meet the scalability demands, especially with high-coverage whole-genome sequencing data, the pipeline utilizes a more efficient software implementation from Sentieon.

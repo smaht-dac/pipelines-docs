@@ -5,13 +5,15 @@
 
 - label: Alignment Pipelines
   items:
-    - name: Short-Read Illumina
-      link: /docs/pipelines/short_read_illumina/
+    - name: Short-Read Illumina, Paired-End
+      link: /docs/pipelines/short_read_paired_end_illumina/
       items:
-        - name: Alignment (BWA-MEM)
-          link: /docs/pipelines/bwa_mem/
+        - name: Alignment
+          link: /docs/pipelines/alignment_paired_end_illumina/
         - name: Read Groups
           link: /docs/pipelines/read_groups_illumina/
+        - name: Duplicates
+          link: /docs/pipelines/duplicates_illumina/
 
     - name: Long-Read PacBio HiFi
       link: /docs/pipelines/long_read_pacbio-hifi/
