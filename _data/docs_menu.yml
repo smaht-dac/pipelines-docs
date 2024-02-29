@@ -10,6 +10,8 @@
       items:
         - name: Alignment (BWA-MEM)
           link: /docs/pipelines/bwa_mem/
+        - name: Read Groups
+          link: /docs/pipelines/read_groups_illumina/
 
     - name: Long-Read PacBio HiFi
       link: /docs/pipelines/long_read_pacbio-hifi/

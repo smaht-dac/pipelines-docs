@@ -6,3 +6,5 @@ items:
     link: /docs/pipelines/short_read_illumina/
   - name: Alignment (BWA-MEM)
     link: /docs/pipelines/bwa_mem/
+  - name: Read Groups
+    link: /docs/pipelines/read_groups_illumina/
