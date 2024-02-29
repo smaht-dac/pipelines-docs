@@ -5,14 +5,14 @@
 
 - label: Alignment Pipelines
   items:
-    - name: Short Reads, Illumina
-      link: /docs/pipelines/short_reads_illumina/
+    - name: Short-Read Illumina
+      link: /docs/pipelines/short_read_illumina/
       items:
         - name: BWA-MEM
           link: /docs/pipelines/bwa_mem/
 
-    - name: Long Reads, PacBio HiFi
-      link: /docs/pipelines/long_reads_pacbio-hifi/
+    - name: Long-Read PacBio HiFi
+      link: /docs/pipelines/long_read_pacbio-hifi/
       items:
         - name: pbmm2
           link: /docs/pipelines/pbmm2/
