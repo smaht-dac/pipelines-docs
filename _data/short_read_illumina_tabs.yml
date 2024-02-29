@@ -4,5 +4,5 @@ size: is-large
 items:
   - name: Short-Read Illumina
     link: /docs/pipelines/short_read_illumina/
-  - name: BWA-MEM
+  - name: Alignment (BWA-MEM)
     link: /docs/pipelines/bwa_mem/

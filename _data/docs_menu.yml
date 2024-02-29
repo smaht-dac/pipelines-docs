@@ -8,7 +8,7 @@
     - name: Short-Read Illumina
       link: /docs/pipelines/short_read_illumina/
       items:
-        - name: BWA-MEM
+        - name: Alignment (BWA-MEM)
           link: /docs/pipelines/bwa_mem/
 
     - name: Long-Read PacBio HiFi

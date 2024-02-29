@@ -1,9 +1,9 @@
 ---
 layout: page
-title: BWA-MEM
+title: Alignment (BWA-MEM)
 menubar: docs_menu
 tabs: short_read_illumina_tabs
 show_sidebar: false
 ---
 
-## BWA-MEM
+## Alignment (BWA-MEM)
