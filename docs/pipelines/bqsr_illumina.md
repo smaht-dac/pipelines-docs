@@ -16,7 +16,8 @@ Pipeline command:
 
 ```text
 
-## base quality score modeling
+## quality score modeling
+#------------------------
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 --algo QualCal
@@ -25,6 +26,7 @@ sentieon driver -r reference.fasta
                 recal_data.table
 
 ## applying recalibration
+#------------------------
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 -q recal_data.table
@@ -47,7 +49,8 @@ GATK equivalent command:
 
 ```text
 
-## base quality score modeling
+## quality score modeling
+#------------------------
 gatk BaseRecalibrator -R reference.fasta
                       -I deduped.bam
                       --enable-baq
@@ -56,6 +59,7 @@ gatk BaseRecalibrator -R reference.fasta
                       -O recal_data.table
 
 ## applying recalibration
+#------------------------
 gatk ApplyBQSR -R reference.fasta
                -I deduped.bam
                -bqsr recal_data.table

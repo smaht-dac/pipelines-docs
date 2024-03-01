@@ -19,11 +19,13 @@ Pipeline command:
 ```text
 
 ## detecting duplicates
+#----------------------
 sentieon driver -i sorted.bam
                 --algo LocusCollector
                 --fun score_info score.txt
 
 ## marking duplicates
+#--------------------
 sentieon driver -i sorted.bam
                 --algo Dedup
                 --optical_dup_pix_dist 2500

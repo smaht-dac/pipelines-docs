@@ -21,6 +21,10 @@ To meet the scalability demands, especially with high-coverage whole-genome sequ
 
 Sentieon offers a comprehensive toolkit (DNASeq[^1]) that replicates the original BWA and GATK algorithms, while enhancing computational efficiency. The pipeline also leverage Sentieon’s distributed mode to streamline the processing of large data volumes.
 
+## Distributed Mode
+
+The distributed version of the pipeline operates on reads divided by sequencing lanes and parallelizing some of the processing across multiple genomic regions, defined as shards, using Sentieon's [distributed mode](https://support.sentieon.com/appnotes/distributed_mode/). This implementation is 1 to 1 equivalent to a standard implementation of the pipeline, producing identical results.
+
 ---
 
 [^1]: Kendig KI, Baheti S, Bockol MA, Drucker TM, Hart SN, Heldenbrand JR, Hernaez M, Hudson ME, Kalmbach MT, Klee EW, Mattson NR, Ross CA, Taschuk M, Wieben ED, Wiepert M, Wildman DE, Mainzer LS. Sentieon DNASeq Variant Calling Workflow Demonstrates Strong Computational Performance and Accuracy. Front Genet. 2019 Aug 20;10:736. doi: 10.3389/fgene.2019.00736. PMID: 31481971; PMCID: PMC6710408.
