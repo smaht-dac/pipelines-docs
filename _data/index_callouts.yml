@@ -1,8 +1,8 @@
 style: is-light
 items:
-  - title: Pipelines Documentation
+  - title: Documentation
     icon: fa-copy
-    call_to_action_name: Documentation
+    call_to_action_name: Docs
     call_to_action_link: /docs/
   - title: Source Code
     icon: fa-github
