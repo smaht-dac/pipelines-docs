@@ -12,12 +12,12 @@ In this final step, the pipeline recalibrates the base quality scores produced b
 
 ## Base Quality Score Modeling and Recalibration
 
-Pipeline command:
+#### Pipeline command
+
+*Quality score modeling*
 
 ```text
 
-## quality score modeling
-#------------------------
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 --algo QualCal
@@ -25,8 +25,12 @@ sentieon driver -r reference.fasta
                 -k known_sites_INDEL.vcf
                 recal_data.table
 
-## applying recalibration
-#------------------------
+```
+
+*Applying recalibration*
+
+```text
+
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 -q recal_data.table
@@ -45,12 +49,12 @@ The implementation uses Sentieon QualCal algorithm to construct models of covari
 
 *Note: To reduce run time (at the expense of accuracy), GATK4 disables the base quality score recalibration of indels when using default settings. Consequently, the Sentieon BAM output will contain BI/BD tags from the indel recalibration, which will be missing from the GATK4 BAM output when run with default settings.*
 
-GATK equivalent command:
+#### GATK equivalent command
+
+*Quality score modeling*
 
 ```text
 
-## quality score modeling
-#------------------------
 gatk BaseRecalibrator -R reference.fasta
                       -I deduped.bam
                       --enable-baq
@@ -58,8 +62,12 @@ gatk BaseRecalibrator -R reference.fasta
                       --known-sites known_sites_INDEL.vcf
                       -O recal_data.table
 
-## applying recalibration
-#------------------------
+```
+
+*Applying recalibration*
+
+```text
+
 gatk ApplyBQSR -R reference.fasta
                -I deduped.bam
                -bqsr recal_data.table

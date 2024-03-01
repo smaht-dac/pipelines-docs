@@ -12,12 +12,12 @@ For the initial alignment, the pipeline uses BWA-MEM in paired-end mode on each 
 
 ## Aligning and Sorting
 
-Pipeline command:
+#### Pipeline command
 
 ```text
 
 sentieon bwa mem -K 10000000 reference.fasta reads.fastq mates.fastq |
-  samtools sort --no-PG -o sorted.bam -
+  samtools sort -o sorted.bam -
 
 ```
 
