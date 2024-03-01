@@ -33,9 +33,7 @@ The read groups are assigned as follows:
 E.g., in BAM file:
 
 ```text
-
 @RG ID:SMAHT1.ST-E00127_336_HJ7YHCCXX.8  SM:SMAHT1  PL:ILLUMINA  PU:ST-E00127_336_HJ7YHCCXX.8  LB:SMAHT1.HISEQ-LIB1
-
 ```
 
 ## Source Code

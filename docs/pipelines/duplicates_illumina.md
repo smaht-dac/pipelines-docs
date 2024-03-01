@@ -17,11 +17,9 @@ The pipeline does not remove the duplicate reads that are tagged directly in the
 *Detecting duplicates*
 
 ```text
-
 sentieon driver -i sorted.bam
                 --algo LocusCollector
                 --fun score_info score.txt
-
 ```
 
 *Marking duplicates*
@@ -32,7 +30,6 @@ sentieon driver -i sorted.bam
                 --optical_dup_pix_dist 2500
                 --score_info score.txt
                 deduped.bam
-
 ```
 
 Arguments:
@@ -52,12 +49,10 @@ The pipeline implementation uses Sentieon LocusCollector to calculate duplicate 
 *Detecting and marking duplicates (Picard equivalent)*
 
 ```text
-
 java -jar picard.jar MarkDuplicates
       INPUT=sorted.bam
       OPTICAL_DUPLICATE_PIXEL_DISTANCE=2500
       OUTPUT=deduped.bam
-
 ```
 
 ## Source Code
