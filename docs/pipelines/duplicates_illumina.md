@@ -14,7 +14,7 @@ The pipeline does not remove the duplicate reads that are tagged directly in the
 
 ## Detecting and Marking Duplicates
 
-**Detect duplicate reads**
+#### Detect duplicate reads
 
 ```text
 sentieon driver -i sorted.bam
@@ -22,7 +22,7 @@ sentieon driver -i sorted.bam
                 --fun score_info score.txt
 ```
 
-**Mark duplicate reads**
+#### Mark duplicate reads
 
 ```text
 sentieon driver -i sorted.bam
@@ -46,7 +46,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 The pipeline implementation uses Sentieon LocusCollector to calculate duplicate metrics per library and the Dedup algorithm to mark duplicate reads in the BAM file. Currently, the pipeline is using Sentieon version 202308.01, corresponding to Picard 2.9.0. Both algorithms combined are equivalent to the MarkDuplicates algorithm in Picard.
 
-**Detect and mark duplicate reads (Picard equivalent)**
+#### Detect and mark duplicate reads (Picard equivalent)
 
 ```text
 java -jar picard.jar MarkDuplicates
