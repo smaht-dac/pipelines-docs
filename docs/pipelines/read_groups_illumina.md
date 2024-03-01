@@ -6,7 +6,7 @@ tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
 ---
 
-# Assign Read Groups
+# Read Groups Assignment
 
 As the second step, the pipeline assigns the reads to unique read groups, representing identifiers that group reads together. A read group (`@RG`) captures relevant information about the sample and the sequencing process and technology, utilized by various downstream bioinformatics tools.
 
@@ -18,7 +18,7 @@ The relevant fields in defining a read group include:
 - **PU (Platform Unit):** A unique identifier for the sequencer unit used for sequencing (i.e., the sequencing lane). This tag is required if running BQSR, as it models together all reads belonging to the same platform unit.
 - **LB (Library):** The library used to sequence the reads. This tag is used in the process of marking or removing duplicate reads to determine groups that may contain duplicates, as duplicate reads need to belong to the same library.
 
-## Generating Read Groups
+## Assigning Read Groups
 
 To assign read groups, an in-house Python script is used. It can automatically generate read groups based on Illumina read names and handle multiple read groups in the same file (e.g., reads from multiple lanes are merged into a single file).
 

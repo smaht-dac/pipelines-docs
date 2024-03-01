@@ -13,8 +13,8 @@ The paired-end short-read alignment pipeline follows the Genome Analysis Toolkit
 ## Key Pipeline Steps
 
 1. **Alignment with BWA-MEM:** Initial alignment of the raw reads to the reference genome.
-2. **Assign Read Groups:** Assignment of reads to specific groups, providing essential information for subsequent steps.
-3. **Mark Duplicates:** Identification and labeling of duplicate reads, that originated during library preparation or as sequencing artifacts.
+2. **Read Groups Assignment:** Assignment of reads to specific groups, providing essential information for subsequent steps.
+3. **Duplicates Marking:** Identification and labeling of duplicate reads, that originated during library preparation or as sequencing artifacts.
 4. **Base Quality Score Recalibration (BQSR):** Recalibration of base quality scores, including indels, resulting in the generation of a refined, analysis-ready BAM file.
 
 ## Sentieon Software and Distributed Mode

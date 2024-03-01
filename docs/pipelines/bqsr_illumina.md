@@ -12,7 +12,7 @@ In this final step, the pipeline recalibrates the base quality scores produced b
 
 ## Base Quality Score Modeling and Recalibration
 
-*Quality score modeling*
+*Model quality scores*
 
 ```text
 sentieon driver -r reference.fasta
@@ -23,7 +23,7 @@ sentieon driver -r reference.fasta
                 recal_data.table
 ```
 
-*Applying recalibration*
+*Apply score recalibration*
 
 ```text
 sentieon driver -r reference.fasta
@@ -41,9 +41,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 The implementation uses Sentieon QualCal algorithm to construct models of covariation based on the input data and a set of known variants. This process produces the recalibration table necessary for BQSR. The recalibration is then applied to the BAM file using the Sentieon ReadWriter command. Currently, the pipeline is using Sentieon version 202308.01, corresponding to GATK versions 3.7, 3.8, 4.0, and 4.1. The algorithms are equivalent to BaseRecalibrator and ApplyBQSR algorithms in GATK.
 
-*Note: To reduce run time (at the expense of accuracy), GATK4 disables the base quality score recalibration of indels when using default settings. Consequently, the Sentieon BAM output will contain BI/BD tags from the indel recalibration, which will be missing from the GATK4 BAM output when run with default settings.*
-
-*Quality score modeling (GATK equivalent)*
+*Model quality scores (GATK equivalent)*
 
 ```text
 gatk BaseRecalibrator -R reference.fasta
@@ -54,7 +52,7 @@ gatk BaseRecalibrator -R reference.fasta
                       -O recal_data.table
 ```
 
-*Applying recalibration (GATK equivalent)*
+*Apply score recalibration (GATK equivalent)*
 
 ```text
 gatk ApplyBQSR -R reference.fasta
@@ -62,6 +60,8 @@ gatk ApplyBQSR -R reference.fasta
                -bqsr recal_data.table
                -O recalibrated.bam
 ```
+
+*Note: To reduce run time (at the expense of accuracy), GATK4 disables the base quality score recalibration of indels when using default settings. Consequently, the Sentieon BAM output will contain BI/BD tags from the indel recalibration, which will be missing from the GATK4 BAM output when run with default settings.*
 
 ## Source Code
 
