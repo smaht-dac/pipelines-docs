@@ -1,12 +1,12 @@
 style: is-light
 items:
-  - title: Docs
-    subtitle: Documentation for Analysis Pipelines
+  - title: Pipelines Documentation
+    # subtitle: Pipelines Documentation
     icon: fa-copy
     call_to_action_name: Documentation
     call_to_action_link: /docs/
-  - title: Code
-    subtitle: Source Code for Analysis Pipelines
+  - title: Pipelines Source Code
+    # subtitle: Pipelines Source Code
     icon: fa-github
     icon_brand: true
     call_to_action_name: Source Code

@@ -1,6 +1,6 @@
 ---
-title: Index
-subtitle: Subtitle
+title: SMaHT Pipelines
+subtitle: Resources for Analysis Pipelines
 layout: page
 callouts: index_callouts
 show_sidebar: true
