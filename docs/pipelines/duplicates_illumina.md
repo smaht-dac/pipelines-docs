@@ -12,7 +12,7 @@ In this step, the pipeline marks duplicate reads, sequencing artifacts that orig
 
 The pipeline does not remove the duplicate reads that are tagged directly in the BAM file.
 
-## Detect and Mark Duplicates
+## Detecting and Marking Duplicates
 
 Pipeline command:
 
@@ -34,7 +34,7 @@ Arguments:
 
 - *-optical_dup_pix_dist* maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline currently uses 2500.
 
-*Note*: The actual implementation of the above command in the pipeline is more complex to support distributed execution, but functionally equivalent.
+*Note: The actual implementation of the above command in the pipeline is more complex to support distributed execution, but functionally equivalent.*
 
 ## Integrity Check
 

@@ -18,7 +18,7 @@ The relevant fields in defining a read group include:
 - **PU (Platform Unit):** A unique identifier for the sequencer unit used for sequencing (i.e., the sequencing lane). This tag is required if running BQSR, as it models together all reads belonging to the same platform unit.
 - **LB (Library):** The library used to sequence the reads. This tag is used in the process of marking or removing duplicate reads to determine groups that may contain duplicates, as duplicate reads need to belong to the same library.
 
-## Read Groups
+## Generating Read Groups
 
 To assign read groups, an in-house Python script is used. It can automatically generate read groups based on Illumina read names and handle multiple read groups in the same file (e.g., reads from multiple lanes merged into a single file).
 

@@ -10,3 +10,5 @@ items:
     link: /docs/pipelines/read_groups_illumina/
   - name: Duplicates
     link: /docs/pipelines/duplicates_illumina/
+  - name: BQSR
+    link: /docs/pipelines/bqsr_illumina/
