@@ -16,6 +16,7 @@ Pipeline command:
 
 ```text
 
+## base quality score modeling
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 --algo QualCal
@@ -23,6 +24,7 @@ sentieon driver -r reference.fasta
                 -k known_sites_INDEL.vcf
                 recal_data.table
 
+## applying recalibration
 sentieon driver -r reference.fasta
                 -i deduped.bam
                 -q recal_data.table
@@ -37,7 +39,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 ## Implementation with Sentieon
 
-The implementation uses Sentieon QualCal algorithm to construct models of covariation based on the input data and a set of known variants. This process produces the recalibration table necessary for BQSR. The recalibration is then applied to the BAM file using the ReadWriter command. Currently, the pipeline is using Sentieon version 202308.01, corresponding to GATK versions 3.7, 3.8, 4.0, and 4.1. The algorithms are equivalent to BaseRecalibrator and ApplyBQSR algorithms in GATK.
+The implementation uses Sentieon QualCal algorithm to construct models of covariation based on the input data and a set of known variants. This process produces the recalibration table necessary for BQSR. The recalibration is then applied to the BAM file using the Sentieon ReadWriter command. Currently, the pipeline is using Sentieon version 202308.01, corresponding to GATK versions 3.7, 3.8, 4.0, and 4.1. The algorithms are equivalent to BaseRecalibrator and ApplyBQSR algorithms in GATK.
 
 *Note: To reduce run time (at the expense of accuracy), GATK4 disables the base quality score recalibration of indels when using default settings. Consequently, the Sentieon BAM output will contain BI/BD tags from the indel recalibration, which will be missing from the GATK4 BAM output when run with default settings.*
 
@@ -45,6 +47,7 @@ GATK equivalent command:
 
 ```text
 
+## base quality score modeling
 gatk BaseRecalibrator -R reference.fasta
                       -I deduped.bam
                       --enable-baq
@@ -52,6 +55,7 @@ gatk BaseRecalibrator -R reference.fasta
                       --known-sites known_sites_INDEL.vcf
                       -O recal_data.table
 
+## applying recalibration
 gatk ApplyBQSR -R reference.fasta
                -I deduped.bam
                -bqsr recal_data.table
