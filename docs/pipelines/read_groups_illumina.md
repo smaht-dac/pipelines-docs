@@ -40,4 +40,6 @@ E.g., in BAM file:
 
 ## Source Code
 
-All the relevant code is accessible in the [GitHub repository](https://github.com/smaht-dac/pipelines-scripts/blob/main/processing_scripts/AddReadGroups.py).
+All the relevant code is accessible in the GitHub repository:
+
+  - [AddReadGroups.py](https://github.com/smaht-dac/pipelines-scripts/blob/main/processing_scripts/AddReadGroups.py) [AddReadGroups]

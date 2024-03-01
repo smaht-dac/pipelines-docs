@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BQSR
+title: Base Quality Score Recalibration
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
@@ -61,4 +61,6 @@ gatk ApplyBQSR -R reference.fasta
 
 ## Source Code
 
-All the relevant code can be accessed in the [GitHub repository](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_QualCal.sh)
+All the relevant code can be accessed in the GitHub repository:
+
+  - [sentieon_QualCal.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_QualCal.sh) [QualCal + ReadWriter]

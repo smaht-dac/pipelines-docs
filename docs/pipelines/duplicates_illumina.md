@@ -57,4 +57,7 @@ java -jar picard.jar MarkDuplicates
 
 ## Source Code
 
-All the relevant code can be accessed in the GitHub repository ([LocusCollector](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector.sh), [Dedup](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector_apply.sh)).
+All the relevant code can be accessed in the GitHub repository:
+
+  - [sentieon_LocusCollector.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector.sh) [LocusCollector]
+  - [sentieon_LocusCollector_apply.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector_apply.sh) [Dedup]

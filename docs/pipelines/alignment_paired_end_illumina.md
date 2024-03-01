@@ -37,4 +37,6 @@ Sentieon implementation replicates the original BWA code. At present, the pipeli
 
 ## Source Code
 
-All the relevant code can be accessed in the [GitHub repository](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_bwa-mem_sort.sh).
+All the relevant code can be accessed in the GitHub repository:
+
+  - [sentieon_bwa-mem_sort.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_bwa-mem_sort.sh) [BWA-MEM]
