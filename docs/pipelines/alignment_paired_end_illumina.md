@@ -33,7 +33,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 Sentieon implementation replicates the original BWA code. At present, the pipeline is using Sentieon version 202308.01, corresponding to BWA version 0.7.17.
 
-*Known issue with original BWA code: In the original BWA code there is a programming error affecting alignment score calculations. Specifically, when secondary alignments are present, the score calculation includes unrelated information, potentially influencing the Mapping Quality (MAPQ) of the primary alignment by lowering it. Sentieon introduce a fix to the issue, resulting in slight differences in MAPQ between the two software (approximately 0.008% of reads are affected).*
+*Note: In the original BWA code there is a programming error affecting alignment score calculations. Specifically, when secondary alignments are present, the score calculation includes unrelated information, potentially influencing the Mapping Quality (MAPQ) of the primary alignment by lowering it. Sentieon introduce a fix to the issue, resulting in slight differences in MAPQ between the two software (approximately 0.008% of reads are affected).*
 
 ## Source Code
 
