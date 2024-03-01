@@ -2,7 +2,7 @@ alignment: is-left
 style: is-boxed
 size: is-large
 items:
-  - name: Short-Read Illumina, Paired-End
+  - name: Overview
     link: /docs/pipelines/short_read_paired_end_illumina/
   - name: Alignment
     link: /docs/pipelines/alignment_paired_end_illumina/

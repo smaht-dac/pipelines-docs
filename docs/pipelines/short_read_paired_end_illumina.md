@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Short-Read Illumina, Paired-End
+title: Overview
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false

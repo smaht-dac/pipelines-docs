@@ -10,7 +10,9 @@ show_sidebar: false
 
 For the initial alignment, the pipeline uses BWA-MEM in paired-end mode on each set of paired FASTQ files. The reads are then sorted by genomic coordinates, and an integrity check is performed on the resulting BAM file.
 
-## Alignment and Sorting
+## Alignment and Sort
+
+Pipeline command:
 
 ```text
 
@@ -21,17 +23,19 @@ sentieon bwa mem -K 10000000 reference.fasta reads.fastq mates.fastq |
 
 Arguments:
 
-- *-K* chunk size option to have number of threads independent results
+- *-K* chunk size option to have number of threads independent results.
 
 ## Integrity Check
 
 To confirm the integrity of the alignment BAM file, in-house Python code checks for the presence of the 28-byte empty block representing the EOF marker in SAM format.
 
-All the relevant code can be accessed in the [GitHub repository](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_bwa-mem_sort.sh).
-
 ## Implementation with Sentieon
 
 Sentieon implementation replicates the original BWA code. At present, the pipeline is using Sentieon version 202308.01, corresponding to BWA version 0.7.17.
+
+## Source Code
+
+All the relevant code can be accessed in the [GitHub repository](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_bwa-mem_sort.sh).
 
 #### Known Issue with Original BWA Code
 
