@@ -12,8 +12,6 @@ In this final step, the pipeline recalibrates the base quality scores produced b
 
 ## Base Quality Score Modeling and Recalibration
 
-#### Pipeline command
-
 *Quality score modeling*
 
 ```text
@@ -49,9 +47,7 @@ The implementation uses Sentieon QualCal algorithm to construct models of covari
 
 *Note: To reduce run time (at the expense of accuracy), GATK4 disables the base quality score recalibration of indels when using default settings. Consequently, the Sentieon BAM output will contain BI/BD tags from the indel recalibration, which will be missing from the GATK4 BAM output when run with default settings.*
 
-#### GATK equivalent command
-
-*Quality score modeling*
+*Quality score modeling (GATK equivalent)*
 
 ```text
 
@@ -64,7 +60,7 @@ gatk BaseRecalibrator -R reference.fasta
 
 ```
 
-*Applying recalibration*
+*Applying recalibration (GATK equivalent)*
 
 ```text
 
