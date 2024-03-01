@@ -1,15 +1,13 @@
 style: is-light
 items:
   - title: Pipelines Documentation
-    # subtitle: Pipelines Documentation
     icon: fa-copy
     call_to_action_name: Documentation
     call_to_action_link: /docs/
-  - title: Pipelines Source Code
-    # subtitle: Pipelines Source Code
+  - title: Source Code
     icon: fa-github
     icon_brand: true
-    call_to_action_name: Source Code
+    call_to_action_name: Code
     call_to_action_link: https://github.com/smaht-dac/main-pipelines
   # - title: Data Portal
   #   subtitle: Data Portal
