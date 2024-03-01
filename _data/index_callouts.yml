@@ -1,7 +1,7 @@
 style: is-light
 items:
   - title: Documentation
-    icon: fa-copy
+    icon: fa-book
     call_to_action_name: Docs
     call_to_action_link: /docs/
   - title: Source Code
@@ -9,8 +9,7 @@ items:
     icon_brand: true
     call_to_action_name: Code
     call_to_action_link: https://github.com/smaht-dac/main-pipelines
-  # - title: Data Portal
-  #   subtitle: Data Portal
-  #   icon: fa-database
-  #   call_to_action_name: Portal
-  #   call_to_action_link: https://github.com/smaht-dac
+  - title: Data Portal
+    icon: fa-database
+    call_to_action_name: SMaHT Portal
+    call_to_action_link: https://github.com/smaht-dac

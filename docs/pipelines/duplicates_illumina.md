@@ -8,7 +8,7 @@ show_sidebar: false
 
 # Mark Duplicates
 
-In this step, the pipeline marks duplicate reads, sequencing artifacts that originate during library preparation and sequencing runs. Duplicate reads are evaluated per-library using the `LB` tag in the read groups.
+In this step, the pipeline marks duplicate reads. Duplicate reads are sequencing artifacts that originate during library preparation and sequencing runs. Duplicate reads are evaluated per-library using the `LB` tag in the read groups.
 
 The pipeline does not remove the duplicate reads that are tagged directly in the BAM file.
 
@@ -36,7 +36,7 @@ sentieon driver -i sorted.bam
 
 Arguments:
 
-- *-optical_dup_pix_dist* maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline currently uses 2500.
+- *-optical_dup_pix_dist*: maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline currently uses 2500.
 
 *Note: The actual implementation of the above command in the pipeline is more complex to support distributed execution, but functionally equivalent.*
 

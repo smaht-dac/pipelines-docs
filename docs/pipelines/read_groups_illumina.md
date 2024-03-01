@@ -20,7 +20,7 @@ The relevant fields in defining a read group include:
 
 ## Generating Read Groups
 
-To assign read groups, an in-house Python script is used. It can automatically generate read groups based on Illumina read names and handle multiple read groups in the same file (e.g., reads from multiple lanes merged into a single file).
+To assign read groups, an in-house Python script is used. It can automatically generate read groups based on Illumina read names and handle multiple read groups in the same file (e.g., reads from multiple lanes are merged into a single file).
 
 The read groups are assigned as follows:
 
