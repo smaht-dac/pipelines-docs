@@ -4,5 +4,5 @@ size: is-large
 items:
   - name: Long-Read PacBio HiFi
     link: /docs/pipelines/long_read_pacbio-hifi/
-  - name: pbmm2
-    link: /docs/pipelines/pbmm2/
+  - name: Alignment
+    link: /docs/pipelines/alignment_pacbio-hifi/

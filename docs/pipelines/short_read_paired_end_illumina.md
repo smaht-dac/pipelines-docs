@@ -6,9 +6,9 @@ tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
 ---
 
-# Paired-End Short-Read Alignment Pipeline
+# Short-Read Illumina Alignment Pipeline, Paired-End
 
-The paired-end short-read alignment pipeline follows the Genome Analysis Toolkit (GATK) Best Practices. It is designed for per-sample and per-library execution, handling one or multiple sets of paired FASTQ files. The pipeline is optimized for distributed processing, requiring each pair of FASTQ files to correspond to a single sequencing lane.
+The paired-end short-read alignment pipeline for Illumina data follows the Genome Analysis Toolkit (GATK) Best Practices. It is designed for per-sample and per-library execution, handling one or multiple sets of paired FASTQ files. The pipeline is optimized for distributed processing, requiring each pair of FASTQ files to correspond to a single sequencing lane.
 
 ## Key Pipeline Steps
 

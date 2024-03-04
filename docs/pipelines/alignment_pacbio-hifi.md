@@ -1,9 +1,9 @@
 ---
 layout: page
-title: pbmm2
+title: Alignment
 menubar: docs_menu
 tabs: long_read_pacbio-hifi_tabs
 show_sidebar: false
 ---
 
-## pbmm2
+# Alignment with pbmm2
