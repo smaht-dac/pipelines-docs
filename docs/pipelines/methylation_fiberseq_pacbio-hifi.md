@@ -2,7 +2,7 @@
 layout: page
 title: Methylation, Fiber-seq
 menubar: docs_menu
-tabs: short_read_paired_end_illumina_tabs
+tabs: long_read_pacbio-hifi_tabs
 show_sidebar: false
 ---
 
