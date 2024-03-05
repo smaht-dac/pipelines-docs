@@ -20,9 +20,9 @@ pbmm2 align --sort --strip --unmapped reference.fasta unaligned.bam sorted.bam
 
 Arguments:
 
-- *--sort*: sort the aligned reads by genomic coordinates.
-- *--strip*: remove extraneous tags if present in the input BAM file. Tags removed: `dq, dt, ip, iq, mq, pa, pc, pd, pe, pg, pm, pq, pt, pv, pw, px, sf, sq, st`.
-- *--unmapped*: retain unmapped reads.
+- *-\-sort*: sort the aligned reads by genomic coordinates.
+- *-\-strip*: remove extraneous tags if present in the input BAM file. Tags removed: `dq, dt, ip, iq, mq, pa, pc, pd, pe, pg, pm, pq, pt, pv, pw, px, sf, sq, st`.
+- *-\-unmapped*: retain unmapped reads.
 
 ## Integrity Check
 

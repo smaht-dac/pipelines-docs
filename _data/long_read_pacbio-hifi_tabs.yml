@@ -2,7 +2,7 @@ alignment: is-left
 style: is-boxed
 size: is-large
 items:
-  - name: Long-Read PacBio HiFi
+  - name: Overview
     link: /docs/pipelines/long_read_pacbio-hifi/
   - name: Alignment
     link: /docs/pipelines/alignment_pacbio-hifi/
