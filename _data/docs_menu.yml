@@ -26,3 +26,15 @@
           link: /docs/pipelines/read_groups_pacbio-hifi/
         - name: Methylation and Tags
           link: /docs/pipelines/methylation_fiberseq_pacbio-hifi/
+
+######################################################################
+#   Reference Files
+######################################################################
+
+- label: Reference Files
+  items:
+    - name: Genome Builds
+      link: /docs/reference_files/reference_genomes/
+      items:
+        - name: GRCh38
+          link: /docs/reference_files/hg38_no_decoy_no_alt/

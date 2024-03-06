@@ -15,7 +15,7 @@ The relevant fields in defining a read group include:
 - **ID (Identifier):** A unique identifier for the read group within the BAM file and across multiple BAM files used in the same dataset.
 - **SM (Sample):** The sample to which the reads belong.
 - **PL (Platform):** The technology used to sequence the reads. This tag is required if running Base Quality Score Recalibration (BQSR) to determine the correct error model (e.g., ILLUMINA).
-- **PU (Platform Unit):** A unique identifier for the sequencer unit used for sequencing (i.e., the sequencing lane). This tag is required if running BQSR, as it models together all reads belonging to the same platform unit.
+- **PU (Platform Unit):** A unique identifier for the sequencer unit used for sequencing (i.e., sequencing lane). This tag is required if running BQSR, as it models together all reads belonging to the same platform unit.
 - **LB (Library):** The library used to sequence the reads. This tag is used in the process of marking or removing duplicate reads to determine groups that may contain duplicates, as duplicate reads need to belong to the same library.
 
 ## Assigning Read Groups
