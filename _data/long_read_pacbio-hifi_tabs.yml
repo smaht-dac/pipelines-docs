@@ -6,5 +6,7 @@ items:
     link: /docs/pipelines/long_read_pacbio-hifi/
   - name: Alignment
     link: /docs/pipelines/alignment_pacbio-hifi/
+  - name: Read Groups
+    link: /docs/pipelines/read_groups_pacbio-hifi/
   - name: Methylation and Tags
     link: /docs/pipelines/methylation_fiberseq_pacbio-hifi/

@@ -5,4 +5,4 @@ menubar: docs_menu
 show_sidebar: false
 ---
 
-I am a Documentation page
+Welcome to the documentation for SMaHT analysis pipelines and associated resources.
