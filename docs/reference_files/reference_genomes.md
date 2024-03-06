@@ -10,4 +10,4 @@ show_sidebar: false
 
 Genome analysis, particularly alignment pipelines, heavily depends on a designated reference genome to ensure consistency and reproducibility across diverse analyses.
 
-Currently, the primary reference genome in use for the pipelines is GRCh38.
+Currently, the primary reference genome in use for the pipelines is build GRCh38.

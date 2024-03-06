@@ -8,7 +8,7 @@ show_sidebar: false
 
 # GRCh38 Genome Build
 
-GRCh38, also known as hg38, serves as a standardized representation of DNA sequences for various alignment and analysis pipelines. The specific version currently in use is GCA_000001405.15_GRCh38 *no_alt_analysis_set*, accessible for download [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/) in the following file formats:
+GRCh38, or hg38, serves as a standardized representation of DNA sequences for various alignment and analysis pipelines. The specific version currently in use is GCA_000001405.15 *no_alt_analysis_set*, accessible for download [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/) in the following file formats:
 
 - **FASTA:** GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
 - **BWT Index:** GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.bwa_index.tar.gz
