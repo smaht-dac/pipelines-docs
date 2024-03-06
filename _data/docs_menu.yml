@@ -22,5 +22,5 @@
       items:
         - name: Alignment
           link: /docs/pipelines/alignment_pacbio-hifi/
-        - name: Methylation, Fiber-seq
+        - name: Methylation and Tags
           link: /docs/pipelines/methylation_fiberseq_pacbio-hifi/

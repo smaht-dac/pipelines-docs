@@ -8,7 +8,7 @@ show_sidebar: false
 
 # Alignment with pbmm2
 
-For alignment, the pipeline uses pbmm2 on each unaligned BAM file. The software also sorts the reads by genomic coordinates and links the methylation tags, if present. An integrity check is then performed on the resulting BAM file.
+For alignment, the pipeline uses pbmm2 on each unaligned BAM file. The software also sorts the reads by genomic coordinates and links methylation and other tags, if present. An integrity check is then performed on the resulting BAM file.
 
 ## Aligning and Sorting
 

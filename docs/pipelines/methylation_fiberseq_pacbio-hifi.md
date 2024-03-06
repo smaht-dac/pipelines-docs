@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Methylation, Fiber-seq
+title: Methylation and Tags
 menubar: docs_menu
 tabs: long_read_pacbio-hifi_tabs
 show_sidebar: false
 ---
 
-# Methylation Tags Linking, Fiber-seq
+# Methylation and Tags Linking
+
+During the alignment process using pbmm2, methylation, and other tags are linked from the unaligned to the alignment BAM file. The specific tags may vary depending on the method used to generate the data. Here is a definition of these tags.
+
+## Fiber-seq
 
 Fiber-seq[^1] is a chromatin mapping technique that employs methyltransferases to create a stencil, mapping chromatin fibers onto the underlying DNA template. The method offers high-resolution insights into chromatin structure, at nearly single-molecule level, facilitating the monitoring of nucleosome positions.
 
-PacBio HiFi data are processed through [fibertools-rs](https://github.com/fiberseq/fibertools-rs) to generate unaligned BAM files. fibertools-rs adds additional information to the files creating tags that are linked by pbmm2 during alignment.
+Raw PacBio HiFi data are processed through [fibertools-rs](https://github.com/fiberseq/fibertools-rs) to generate unaligned BAM files. fibertools-rs adds additional information to the files creating tags that are linked by pbmm2 during alignment.
 
 Fiber-seq generates the following tags:
 
