@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Methylation and Tags
 menubar: docs_menu
 tabs: long_read_pacbio-hifi_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Methylation and Tags Linking

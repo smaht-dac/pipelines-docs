@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Duplicates
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Duplicates Marking

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Overview
 menubar: docs_menu
 tabs: preprocessing_fastq_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # FASTQ Files Preprocessing

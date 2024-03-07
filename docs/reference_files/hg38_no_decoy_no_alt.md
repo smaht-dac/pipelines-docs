@@ -1,9 +1,9 @@
 ---
 layout: page
-title: GRCh38
 menubar: docs_menu
 tabs: reference_genomes_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # GRCh38 Genome Build

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Overview
 menubar: docs_menu
 tabs: reference_genomes_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Genome Builds for Analysis Pipelines

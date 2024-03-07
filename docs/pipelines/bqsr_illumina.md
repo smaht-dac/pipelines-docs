@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Base Quality Score Recalibration
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Base Quality Score Recalibration (BQSR)
