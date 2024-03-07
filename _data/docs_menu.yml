@@ -1,3 +1,14 @@
+######################################################################
+#   Preprocessing Pipelines
+######################################################################
+
+- label: Preprocessing Pipelines
+  items:
+    - name: FASTQ Files
+      link: /docs/preprocessing/fastq/
+      items:
+        - name: polyG Artifacts
+          link: /docs/preprocessing/polyG_removal_Illumina/
 
 ######################################################################
 #   Alignment Pipelines

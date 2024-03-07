@@ -1,0 +1,8 @@
+alignment: is-left
+style: is-boxed
+size: is-large
+items:
+  - name: Overview
+    link: /docs/preprocessing/fastq/
+  - name: polyG Artifacts
+    link: /docs/preprocessing/polyG_removal_Illumina/
