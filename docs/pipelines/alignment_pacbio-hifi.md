@@ -4,6 +4,7 @@ title: Alignment
 menubar: docs_menu
 tabs: long_read_pacbio-hifi_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Alignment with pbmm2

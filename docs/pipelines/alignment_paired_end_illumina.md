@@ -4,6 +4,7 @@ title: Alignment
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
+hero_height: is-small
 ---
 
 # Alignment with BWA-MEM
