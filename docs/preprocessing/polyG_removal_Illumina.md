@@ -8,13 +8,13 @@ hide_hero: true
 
 # polyG Artifacts
 
-Latest Illumina technologies using two-channel sequencing systems, such as NextSeq and NovaSeq, may introduce homopolymer runs of Gs (polyG) as artifacts. Poly-G artifacts appear when the dark base G is called after the synthesis has terminated, resulting in the erroneous calling of high-confidence G bases at the ends of affected reads. Eventually, a large number of these reads may align to reference regions with high G content (e.g., chr2:32916230-32916625), creating problems for downstream processing.
+Latest Illumina technologies using two-channel sequencing systems, such as NextSeq and NovaSeq, may introduce homopolymer runs of G bases (polyG) as artifacts. Poly-G artifacts appear when the dark base G is called after the synthesis has terminated, resulting in the erroneous calling of high-confidence G bases at the ends of affected reads. Eventually, a large number of these reads may align to reference regions with high G content (e.g., chr2:32916230-32916625), creating problems for downstream processing.
 
 As part of FASTQ files preprocessing, raw reads generate by Illumina two-channel sequencing systems are filtered using fastp to remove read pairs containing polyG artifacts.
 
 ## Removing Read Pairs Containing polyG Artifacts
 
-##### Filter read pairs trimmed for polyG artifacts
+##### Filter read pairs containing polyG artifacts
 
 ```text
 fastp
