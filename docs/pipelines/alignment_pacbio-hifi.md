@@ -30,7 +30,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 ## Implementation with pbmm2
 
-The pipeline is currently using pbmm2 version 1.13.0, which utilizes minimap2 version 2.26. It's important to note that pbmm2 sets some defaults that may differ from the standard minimap2.
+The pipeline is using [pbmm2](https://github.com/PacificBiosciences/pbmm2) version 1.13.0, which utilizes [minimap2](https://github.com/lh3/minimap2) version 2.26. It's important to note that pbmm2 sets some defaults that may differ from the standard minimap2.
 
 Default set by pbmm2 for minimap2:
 

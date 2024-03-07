@@ -39,7 +39,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 ## Implementation with Sentieon
 
-The implementation uses Sentieon QualCal algorithm to construct models of covariation based on the input data and a set of known variants. This process produces the recalibration table necessary for BQSR. The recalibration is then applied to the BAM file using the Sentieon ReadWriter command. Currently, the pipeline is using Sentieon version 202308.01, corresponding to GATK versions 3.7, 3.8, 4.0, and 4.1. The algorithms are equivalent to BaseRecalibrator and ApplyBQSR algorithms in GATK.
+The implementation uses Sentieon QualCal algorithm to construct models of covariation based on the input data and a set of known variants. This process produces the recalibration table necessary for BQSR. The recalibration is then applied to the BAM file using the Sentieon ReadWriter command. The pipeline is using Sentieon version 202308.01, corresponding to GATK versions 3.7, 3.8, 4.0, and 4.1. The algorithms are equivalent to BaseRecalibrator and ApplyBQSR algorithms in GATK.
 
 ##### Model quality scores (GATK equivalent)
 

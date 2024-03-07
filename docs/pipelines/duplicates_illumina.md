@@ -35,7 +35,7 @@ sentieon driver -i sorted.bam
 
 Arguments:
 
-- *-\-optical_dup_pix_dist*: maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline currently uses 2500.
+- *-\-optical_dup_pix_dist*: maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline uses 2500.
 
 *Note: The actual implementation of the above command in the pipeline is more complex to support distributed execution, but functionally equivalent.*
 
@@ -45,7 +45,7 @@ To confirm the integrity of the alignment BAM file, in-house Python code checks 
 
 ## Implementation with Sentieon
 
-The pipeline implementation uses Sentieon LocusCollector to calculate duplicate metrics per library and the Dedup algorithm to mark duplicate reads in the BAM file. Currently, the pipeline is using Sentieon version 202308.01, corresponding to Picard 2.9.0. Both algorithms combined are equivalent to the MarkDuplicates algorithm in Picard.
+The pipeline implementation uses Sentieon LocusCollector to calculate duplicate metrics per library and the Dedup algorithm to mark duplicate reads in the BAM file. The pipeline is using Sentieon version 202308.01, corresponding to Picard 2.9.0. Both algorithms combined are equivalent to the MarkDuplicates algorithm in Picard.
 
 ##### Detect and mark duplicate reads (Picard equivalent)
 

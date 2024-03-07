@@ -12,14 +12,14 @@ The paired-end short-read alignment pipeline for Illumina data follows the Genom
 
 ## Key Pipeline Steps
 
-1. **Alignment with BWA-MEM:** Initial alignment of the raw reads to the reference genome.
+1. **Alignment with BWA-MEM:** Initial alignment of the raw reads to the reference genome using BWA-MEM.
 2. **Read Groups Assignment:** Assignment of reads to specific groups, providing essential information for subsequent steps.
 3. **Duplicates Marking:** Identification and labeling of duplicate reads, that originated during library preparation or as sequencing artifacts.
 4. **Base Quality Score Recalibration (BQSR):** Recalibration of base quality scores, including indels, resulting in the generation of a refined, analysis-ready BAM file.
 
 ## Sentieon Software and Distributed Mode
 
-To meet the scalability demands, especially with high-coverage whole-genome sequencing data, the pipeline utilizes a more efficient software implementation from Sentieon.
+To meet the scalability demands, especially with high-coverage whole-genome sequencing data, the pipeline utilizes a more efficient software implementation from [Sentieon](https://www.sentieon.com/).
 
 Sentieon offers a comprehensive toolkit (DNASeq[^1]) that replicates the original BWA and GATK algorithms, while enhancing computational efficiency. The pipeline also leverage Sentieon’s [distributed mode](https://support.sentieon.com/appnotes/distributed_mode/) to streamline the processing of large data volumes.
 
