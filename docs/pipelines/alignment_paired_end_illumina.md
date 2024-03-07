@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Alignment
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
-hero_height: is-small
+hide_hero: true
 ---
 
 # Alignment with BWA-MEM

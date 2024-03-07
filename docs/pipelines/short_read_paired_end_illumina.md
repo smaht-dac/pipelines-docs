@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Overview
 menubar: docs_menu
 tabs: short_read_paired_end_illumina_tabs
 show_sidebar: false
+hide_hero: true
 ---
 
 # Short-Read Illumina Alignment Pipeline, Paired-End
