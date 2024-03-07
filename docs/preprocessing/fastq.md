@@ -13,4 +13,4 @@ FASTQ files contain raw sequencing information, including nucleotide sequences a
 
 ## Key Preprocessing Steps
 
-1. **polyG Artifacts Removal:** Removal of read pairs containing polyG artifacts from Illumina sequencing data.
+1. **polyG Artifacts Removal:** Removal of reads containing polyG artifacts from Illumina sequencing data.

@@ -12,9 +12,9 @@ Latest Illumina technologies that utilize a two-channel sequencing system, such 
 
 As part of FASTQ files preprocessing, raw reads generate by Illumina two-channel sequencing systems are filtered using fastp to remove read pairs containing polyG artifacts.
 
-## Filtering Read Pairs Containing polyG Artifacts
+## Removing Read Pairs Containing polyG Artifacts
 
-##### Remove read pairs affected by polyG artifacts
+##### Filter read pairs trimmed for polyG artifacts
 
 ```text
 fastp
@@ -34,3 +34,7 @@ Arguments:
 - *-\-disable_quality_filtering*: disable quality filtering.
 - *-\-trim_poly_g*: activate polyG tail trimming.
 - *-\-length_required*: discard reads shorter than the specified read length.
+
+## Implementation with fastp
+
+The pipeline is using [fastp](https://github.com/OpenGene/fastp) version 0.23.2.
