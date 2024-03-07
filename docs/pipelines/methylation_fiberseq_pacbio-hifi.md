@@ -6,7 +6,7 @@ show_sidebar: false
 hide_hero: true
 ---
 
-# Methylation and Tags Linking
+# Methylation and Tags
 
 During the alignment process using pbmm2, methylation, and other tags are linked from the unaligned to the alignment BAM file. The specific tags may vary depending on the method used to generate the data. Here is a definition of these tags.
 

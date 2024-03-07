@@ -23,7 +23,7 @@
           link: /docs/pipelines/alignment_paired_end_illumina/
         - name: Read Groups
           link: /docs/pipelines/read_groups_illumina/
-        - name: Duplicates
+        - name: Duplicate Reads
           link: /docs/pipelines/duplicates_illumina/
         - name: Base Quality Score Recalibration
           link: /docs/pipelines/bqsr_illumina/
@@ -44,8 +44,8 @@
 
 - label: Reference Files
   items:
-    - name: Genome Builds
+    - name: Reference Genomes
       link: /docs/reference_files/reference_genomes/
       items:
-        - name: GRCh38
+        - name: Build GRCh38
           link: /docs/reference_files/hg38_no_decoy_no_alt/

@@ -6,7 +6,7 @@ show_sidebar: false
 hide_hero: true
 ---
 
-# Genome Builds for Analysis Pipelines
+# Reference Genomes
 
 Genome analysis, particularly alignment pipelines, heavily depends on a designated reference genome to ensure consistency and reproducibility across diverse analyses.
 

@@ -6,7 +6,7 @@ show_sidebar: false
 hide_hero: true
 ---
 
-# Duplicates Marking
+# Duplicate Reads
 
 In this step, the pipeline marks duplicate reads. Duplicate reads are sequencing artifacts that originate during library preparation and sequencing runs. Duplicate reads are evaluated per-library using the `LB` tag in the read groups.
 

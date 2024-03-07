@@ -4,5 +4,5 @@ size: is-large
 items:
   - name: Overview
     link: /docs/reference_files/reference_genomes/
-  - name: GRCh38
+  - name: Build GRCh38
     link: /docs/reference_files/hg38_no_decoy_no_alt/

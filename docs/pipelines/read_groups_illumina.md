@@ -6,7 +6,7 @@ show_sidebar: false
 hide_hero: true
 ---
 
-# Read Groups Assignment
+# Read Groups
 
 As the second step, the pipeline assigns the reads to unique read groups, representing identifiers that group reads together. A read group (`@RG`) captures relevant information about the sample and the sequencing process and technology, utilized by various downstream bioinformatics tools.
 

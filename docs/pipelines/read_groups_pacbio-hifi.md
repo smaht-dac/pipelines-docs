@@ -6,7 +6,7 @@ show_sidebar: false
 hide_hero: true
 ---
 
-# Read Groups Assignment
+# Read Groups
 
 A read group (`@RG`) is a unique identifier that group reads together, capturing relevant information about the sample and the sequencing process and technology, utilized by various downstream bioinformatics tools.
 
