@@ -27,6 +27,8 @@
           link: /docs/pipelines/duplicates_illumina/
         - name: Base Quality Score Recalibration
           link: /docs/pipelines/bqsr_illumina/
+        - name: Hi-C
+          link: /docs/pipelines/alignment_paired_end_illumina_hi-c/
 
     - name: Long-Read PacBio HiFi
       link: /docs/pipelines/long_read_pacbio-hifi/

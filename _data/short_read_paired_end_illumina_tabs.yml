@@ -12,3 +12,5 @@ items:
     link: /docs/pipelines/duplicates_illumina/
   - name: BQSR
     link: /docs/pipelines/bqsr_illumina/
+  - name: Hi-C
+    link: /docs/pipelines/alignment_paired_end_illumina_hi-c/

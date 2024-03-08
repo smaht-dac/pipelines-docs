@@ -17,6 +17,8 @@ The paired-end short-read alignment pipeline for Illumina data follows the Genom
 3. **Duplicate Reads Marking:** Identification and labeling of duplicate reads, that originated during library preparation or as sequencing artifacts.
 4. **Base Quality Score Recalibration (BQSR):** Recalibration of base quality scores, including indels, resulting in the generation of a refined, analysis-ready BAM file.
 
+A modified alignment step with BWA-MEM is used for processing Hi-C data.
+
 ## Sentieon Software and Distributed Mode
 
 To meet the scalability demands, especially with high-coverage whole-genome sequencing data, the pipeline utilizes a more efficient software implementation from [Sentieon](https://www.sentieon.com/).
