@@ -8,7 +8,9 @@ hide_hero: true
 
 # Build GRCh38
 
-The Genome Reference Consortium Human Build 38 (GRCh38), or hg38, serves as a standardized representation of DNA sequences for various alignment and analysis pipelines. The specific version in use is GCA_000001405.15 no_alt_analysis_set, accessible for download [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/) in the following files:
+The Genome Reference Consortium Human Build 38 (GRCh38), or hg38, serves as a standardized representation of DNA sequences for various alignment and analysis pipelines.
+
+The specific version in use is GCA_000001405.15 no_alt_analysis_set, accessible for download [here](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/) in the following files:
 
 - **Sequences FASTA:** GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
 - **FM Index:** GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.bwa_index.tar.gz

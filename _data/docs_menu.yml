@@ -54,3 +54,5 @@
       items:
         - name: dbSNP
           link: /docs/reference_files/dbsnp/
+        - name: Mills and 1000 Genomes Project
+          link: /docs/reference_files/mills_1000genomes_indels/
