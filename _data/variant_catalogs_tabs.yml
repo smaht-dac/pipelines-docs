@@ -1,0 +1,8 @@
+alignment: is-left
+style: is-boxed
+size: is-large
+items:
+  - name: Overview
+    link: /docs/reference_files/variant_catalogs/
+  - name: dbSNP
+    link: /docs/reference_files/dbsnp/

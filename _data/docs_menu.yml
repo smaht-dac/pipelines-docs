@@ -49,3 +49,8 @@
       items:
         - name: Build GRCh38
           link: /docs/reference_files/hg38_no_decoy_no_alt/
+    - name: Variant Catalogs
+      link: /docs/reference_files/variant_catalogs/
+      items:
+        - name: dbSNP
+          link: /docs/reference_files/dbsnp/
