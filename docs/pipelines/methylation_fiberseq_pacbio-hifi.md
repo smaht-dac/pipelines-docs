@@ -12,7 +12,7 @@ During the alignment process using pbmm2, methylation, and other tags are linked
 
 ## Fiber-seq
 
-Fiber-seq[^1] is a chromatin mapping technique that employs methyltransferases to create a stencil, mapping chromatin fibers onto the underlying DNA template. The method offers high-resolution insights into chromatin structure, at nearly single-molecule level, facilitating the monitoring of nucleosome positions.
+Fiber-seq[^1] is a chromatin mapping technique that employs methyltransferases to mark accessible adenines in DNA with methyl groups. The underlying chromatin structure (e.g., nucleosomes and bound transcription factors) is used as a "stencil" for the methyltransferase, mapping the structure of chromatin fibers onto the underlying DNA template. The position of the methylated adenines is then used to infer the DNA accessibility from the template, offering high-resolution insights into chromatin structure at nearly single-molecule level.
 
 Raw PacBio HiFi data are processed through [fibertools-rs](https://github.com/fiberseq/fibertools-rs) to generate unaligned BAM files. fibertools-rs adds additional information to the files creating tags that are linked by pbmm2 during alignment.
 
