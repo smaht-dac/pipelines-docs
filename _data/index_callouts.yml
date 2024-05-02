@@ -12,4 +12,4 @@ items:
   - title: Data Portal
     icon: fa-database
     call_to_action_name: SMaHT Portal
-    call_to_action_link: https://github.com/smaht-dac
+    call_to_action_link: https://data.smaht.org/
