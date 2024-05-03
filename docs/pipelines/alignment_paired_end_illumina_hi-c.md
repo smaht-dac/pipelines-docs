@@ -35,7 +35,7 @@ Hi-C specific arguments:
 
 ## Integrity Check
 
-To confirm the integrity of the alignment BAM file, in-house Python code checks for the presence of the 28-byte empty block representing the EOF marker in SAM format.
+To confirm the integrity of the alignment BAM file, in-house Python code checks for the presence of the 28-byte empty block representing the EOF marker in BAM format.
 
 ## Implementation with Sentieon
 

@@ -40,6 +40,16 @@
         - name: Methylation and Tags
           link: /docs/pipelines/methylation_fiberseq_pacbio-hifi/
 
+    - name: Long-Read ONT
+      link: /docs/pipelines/long_read_ont/
+      items:
+        - name: Alignment
+          link: /docs/pipelines/alignment_ont/
+        - name: Read Groups
+          link: /docs/pipelines/read_groups_ont/
+        - name: Methylation and Tags
+          link: /docs/pipelines/methylation_tags_ont/
+
 ######################################################################
 #   Reference Files
 ######################################################################
