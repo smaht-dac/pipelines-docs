@@ -16,7 +16,7 @@ In this final step, the pipeline recalibrates the base quality scores produced b
 
 ```text
 sentieon driver -r reference.fasta
-                -i deduped.bam
+                -i realigned.bam
                 --algo QualCal
                 -k known_sites_SNP.vcf
                 -k known_sites_INDEL.vcf
@@ -27,7 +27,7 @@ sentieon driver -r reference.fasta
 
 ```text
 sentieon driver -r reference.fasta
-                -i deduped.bam
+                -i realigned.bam
                 -q recal_data.table
                 --algo ReadWriter
                 recalibrated.bam
@@ -45,7 +45,7 @@ The implementation uses Sentieon QualCal algorithm to construct models of covari
 
 ```text
 gatk BaseRecalibrator -R reference.fasta
-                      -I deduped.bam
+                      -I realigned.bam
                       --enable-baq
                       --known-sites known_sites_SNP.vcf
                       --known-sites known_sites_INDEL.vcf
@@ -56,7 +56,7 @@ gatk BaseRecalibrator -R reference.fasta
 
 ```text
 gatk ApplyBQSR -R reference.fasta
-               -I deduped.bam
+               -I realigned.bam
                -bqsr recal_data.table
                -O recalibrated.bam
 ```

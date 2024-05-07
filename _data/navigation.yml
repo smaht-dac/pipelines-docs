@@ -1,4 +1,17 @@
 - name: Docs
   link: /docs/
+  # dropdown: 
+  #   - name: [PREPROCESSING] FASTQ Files 
+  #     link: /docs/preprocessing/fastq/
+  #   - name: [ALIGNMENT] Short-Read Illumina, Paired-End
+  #     link: /docs/pipelines/short_read_paired_end_illumina/
+  #   - name: [ALIGNMENT] Long-Read PacBio HiFi
+  #     link: /docs/pipelines/long_read_pacbio-hifi/
+  #   - name: [ALIGNMENT] Long-Read Oxford Nanopore
+  #     link: /docs/pipelines/long_read_ont/
+  #   - name: [FILES] Reference Genomes
+  #     link: /docs/reference_files/reference_genomes/
+  #   - name: [FILES] Variant Catalogs
+  #     link: /docs/reference_files/variant_catalogs/
 - name: Releases
   link: /releases/

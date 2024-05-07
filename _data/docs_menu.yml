@@ -7,7 +7,7 @@
     - name: FASTQ Files
       link: /docs/preprocessing/fastq/
       items:
-        - name: polyG Artifacts
+        - name: polyG Artifacts Removal
           link: /docs/preprocessing/polyG_removal_Illumina/
 
 ######################################################################
@@ -25,6 +25,8 @@
           link: /docs/pipelines/read_groups_illumina/
         - name: Duplicate Reads
           link: /docs/pipelines/duplicates_illumina/
+        - name: Local Realignment
+          link: /docs/pipelines/realign_illumina/
         - name: Base Quality Score Recalibration
           link: /docs/pipelines/bqsr_illumina/
         - name: Hi-C
@@ -40,7 +42,7 @@
         - name: Methylation and Tags
           link: /docs/pipelines/methylation_fiberseq_pacbio-hifi/
 
-    - name: Long-Read ONT
+    - name: Long-Read Oxford Nanopore
       link: /docs/pipelines/long_read_ont/
       items:
         - name: Alignment

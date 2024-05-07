@@ -25,9 +25,9 @@ Standard arguments:
 
 Hi-C specific arguments:
 
-- *-S* skip mate rescue.
-- *-P* skip pairing. Mate rescue performed unless -S also in use.
-- *-5* for split alignment, take the alignment with the smallest coordinate as primary.
+- *-S*: skip mate rescue.
+- *-P*: skip pairing. Mate rescue performed unless -S also in use.
+- *-5*: for split alignment, take the alignment with the smallest coordinate as primary.
 
 *-SP* ensures that the results are equivalent to aligning each mate separately, while maintaining the proper paired-end read formatting. It also avoids forced alignment of a poorly aligned read given an alignment of its mate, based on assumption that the two mates belong to a single genomic segment.
 

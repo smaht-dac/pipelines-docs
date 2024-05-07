@@ -10,6 +10,8 @@ items:
     link: /docs/pipelines/read_groups_illumina/
   - name: Duplicate Reads
     link: /docs/pipelines/duplicates_illumina/
+  - name: Local Realignment
+    link: /docs/pipelines/realign_illumina/
   - name: BQSR
     link: /docs/pipelines/bqsr_illumina/
   - name: Hi-C

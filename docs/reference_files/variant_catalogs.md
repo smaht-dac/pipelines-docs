@@ -14,5 +14,5 @@ The pipelines utilize several of these catalogs, specifically the versions built
 
 ## Catalogs
 
-1. **The Single Nucleotide Polymorphism Database (dbSNP):** a comprehensive repository documenting single nucleotide changes in genomic DNA.
-2. **Mills and 1000 Genomes Gold Standard:** a comprehensive catalog documenting insertions and deletions in genomic DNA.
+1. **The Single Nucleotide Polymorphism Database (dbSNP):** A comprehensive repository documenting single nucleotide changes in genomic DNA.
+2. **Mills and 1000 Genomes Gold Standard:** A comprehensive catalog documenting insertions and deletions in genomic DNA.
