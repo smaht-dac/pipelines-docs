@@ -21,6 +21,5 @@ Sentieon offers a comprehensive toolkit (DNASeq[^1]) that replicates the origina
 
 The distributed version of the pipeline operates on reads divided by sequencing lanes and parallelizing some of the processing across multiple genomic regions, defined as shards. This implementation is a 1 to 1 equivalent to a standard implementation of the pipeline, producing identical results.
 
----
 
 [^1]: *Kendig KI, Baheti S, Bockol MA, Drucker TM, Hart SN, Heldenbrand JR, Hernaez M, Hudson ME, Kalmbach MT, Klee EW, Mattson NR, Ross CA, Taschuk M, Wieben ED, Wiepert M, Wildman DE, Mainzer LS.* Sentieon DNASeq Variant Calling Workflow Demonstrates Strong Computational Performance and Accuracy. *Front Genet. 2019 Aug 20;10:736.* doi: 10.3389/fgene.2019.00736.

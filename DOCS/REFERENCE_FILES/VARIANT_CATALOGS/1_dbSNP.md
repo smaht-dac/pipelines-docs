@@ -7,6 +7,5 @@ The specific version in use is build 138, accessible for download [here](https:/
 
 - **Variants VCF:** Homo_sapiens_assembly38.dbsnp138.vcf
 
----
 
 [^1]: *Sherry S.T., Ward M.H., Kholodov M., Baker J., Phan L., Smigielski E.M., Sirotkin K.* dbSNP: the NCBI database of genetic variation. *Nucleic Acids Res.* doi: 2001;29:308–311.
