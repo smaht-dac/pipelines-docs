@@ -49,3 +49,5 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
     - [0. Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md)
     - [1. dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md)
     - [2. Mills_and_1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
+
+##### [CHANGELOG](/RELEASES/releases.md)
