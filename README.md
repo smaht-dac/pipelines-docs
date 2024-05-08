@@ -6,48 +6,66 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
 ##### PREPROCESSING PIPELINES
 
-- FASTQ Files
+<details>
+<summary> &nbsp FASTQ Files </summary>
 
-    - [0. Overview](/DOCS/PREPROCESSING/FASTQ_Files/0_Overview.md)
-    - [1. polyG Artifacts Removal](/DOCS/PREPROCESSING/FASTQ_Files/1_polyG_Artifacts_Removal.md)
+- [Overview](/DOCS/PREPROCESSING/FASTQ_Files/0_Overview.md)
+- [polyG Artifacts Removal](/DOCS/PREPROCESSING/FASTQ_Files/1_polyG_Artifacts_Removal.md)
+
+</details>
 
 ##### ALIGNMENT PIPELINES
 
-- Short-Read Illumina, Paired-End
+<details>
+<summary> &nbsp Short-Read Illumina, Paired-End </summary>
 
-    - [0. Overview](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/0_Overview.md)
-    - [1. Alignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/1_Alignment.md)
-    - [2. Read Groups](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/2_Read_Groups.md)
-    - [3. Duplicate Reads](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/3_Duplicate_Reads.md)
-    - [4. Local Realignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/4_Local_Realignment.md)
-    - [5. Base Quality Score Recalibration](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/5_Base_Quality_Score_Recalibration.md)
-    - [6. Hi-C](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/6_Hi-C.md)
+- [Overview](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/0_Overview.md)
+- [Alignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/1_Alignment.md)
+- [Read Groups](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/2_Read_Groups.md)
+- [Duplicate Reads](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/3_Duplicate_Reads.md)
+- [Local Realignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/4_Local_Realignment.md)
+- [Base Quality Score Recalibration](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/5_Base_Quality_Score_Recalibration.md)
+- [Hi-C](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/6_Hi-C.md)
 
-- Long-Read PacBio HiFi
+</details>
 
-    - [0. Overview](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/0_Overview.md)
-    - [1. Alignment](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/1_Alignment.md)
-    - [2. Read Groups](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/2_Read_Groups.md)
-    - [3. Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/3_Methylation_and_Tags.md)
+<details>
+<summary> &nbsp Long-Read PacBio HiFi </summary>
 
-- Long-Read Oxford Nanopore
+- [Overview](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/0_Overview.md)
+- [Alignment](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/1_Alignment.md)
+- [Read Groups](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/2_Read_Groups.md)
+- [Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/3_Methylation_and_Tags.md)
 
-    - [0. Overview](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md)
-    - [1. Alignment](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md)
-    - [2. Read Groups](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md)
-    - [3. Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
+</details>
+
+<details>
+<summary> &nbsp Long-Read Oxford Nanopore </summary>
+
+- [Overview](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md)
+- [Alignment](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md)
+- [Read Groups](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md)
+- [Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
+
+</details>
 
 ##### REFERENCE FILES
 
-- Genome Builds
+<details>
+<summary> &nbsp Genome Builds </summary>
 
-    - [0. Overview](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md)
-    - [1. Build GRCh38](/DOCS/REFERENCE_FILES/Genome_Builds/1_Build_GRCh38.md)
+- [Overview](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md)
+- [Build GRCh38](/DOCS/REFERENCE_FILES/Genome_Builds/1_Build_GRCh38.md)
 
-- Variant Catalogs
+</details>
 
-    - [0. Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md)
-    - [1. dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md)
-    - [2. Mills_and_1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
+<details>
+<summary> &nbsp Variant Catalogs </summary>
+
+- [Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md)
+- [dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md)
+- [Mills_and_1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
+
+</details>
 
 ##### [CHANGELOG](releases.md)
