@@ -1,5 +1,5 @@
 
-# Local Indel Realignment
+# Local Realignment
 
 In this step, the pipeline perform local realignment at indel positions. Unlike genome aligners that consider each read independently and may favor alignments with mismatches or soft-clips over opening a gap, local realignment takes into account all reads spanning a given position, enabling a high-scoring consensus that supports the presence of an indel event. The two-step realignment process identifies potential regions for alignment improvement and then realigns the reads in these regions using a consensus model that considers all reads in the alignment context together. This allows to correct potential mapping errors made by the aligners, enhancing the consistency of read alignments in regions with indels.
 

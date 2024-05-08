@@ -1,7 +1,7 @@
 
-# dbSNP
+# Single Nucleotide Polymorphism Database (dbSNP)
 
-The Single Nucleotide Polymorphism Database[^1] (dbSNP) is a comprehensive repository documenting single nucleotide changes in genomic DNA, offering a resource for understanding common genetic variations. While the primary focus is on single nucleotide polymorphisms, the database also contains short deletion and insertion polymorphisms, along with other sources of variation such as short tandem repeats and multinucleotide polymorphisms.
+The Single Nucleotide Polymorphism Database[^1] is a comprehensive repository documenting single nucleotide changes in genomic DNA, offering a resource for understanding common genetic variations. While the primary focus is on single nucleotide polymorphisms, the database also contains short deletion and insertion polymorphisms, along with other sources of variation such as short tandem repeats and multinucleotide polymorphisms.
 
 The specific version in use is build 138, accessible for download [here](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/) as part of the Genome Analysis Toolkit (GATK) resource bundle in following files:
 
