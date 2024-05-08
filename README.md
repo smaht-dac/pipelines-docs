@@ -4,34 +4,22 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
 ## CONTENTS
 
-#### PREPROCESSING
+##### PREPROCESSING
 
-- FASTQ Files
+- FASTQ Files: [_Overview_](/DOCS/PREPROCESSING/FASTQ_Files/0_Overview.md) / [_polyG Artifacts Removal_](/DOCS/PREPROCESSING/FASTQ_Files/1_polyG_Artifacts_Removal.md)
 
-    [Overview](/DOCS/PREPROCESSING/FASTQ_Files/0_Overview.md) - [polyG Artifacts Removal](/DOCS/PREPROCESSING/FASTQ_Files/1_polyG_Artifacts_Removal.md)
+##### ALIGNMENT
 
-#### ALIGNMENT
+- Short-Read Illumina, Paired-End: [_Overview_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/0_Overview.md) / [_Alignment_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/1_Alignment.md) / [_Read Groups_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/2_Read_Groups.md) / [_Duplicate Reads_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/3_Duplicate_Reads.md) / [_Local Realignment_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/4_Local_Realignment.md) / [_Base Quality Score Recalibration_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/5_Base_Quality_Score_Recalibration.md) / [_Hi-C_](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/6_Hi-C.md)
 
-- Short-Read Illumina, Paired-End
+- Long-Read PacBio HiFi: [_Overview_](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/0_Overview.md) / [_Alignment_](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/1_Alignment.md) / [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/2_Read_Groups.md) / [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/3_Methylation_and_Tags.md)
 
-    [Overview](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/0_Overview.md) - [Alignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/1_Alignment.md) - [Read Groups](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/2_Read_Groups.md) - [Duplicate Reads](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/3_Duplicate_Reads.md) - [Local Realignment](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/4_Local_Realignment.md) - [Base Quality Score Recalibration](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/5_Base_Quality_Score_Recalibration.md) - [Hi-C](/DOCS/ALIGNMENT/Short-Read_Illumina_Paired-End/6_Hi-C.md)
+- Long-Read Oxford Nanopore: [_Overview_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) / [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) / [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md) / [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
 
-- Long-Read PacBio HiFi
+##### REFERENCE FILES
 
-    [Overview](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/0_Overview.md) - [Alignment](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/1_Alignment.md) - [Read Groups](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/2_Read_Groups.md) - [Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_PacBio_HiFi/3_Methylation_and_Tags.md)
+- Genome Builds: [_Overview_](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md) / [_Build GRCh38_](/DOCS/REFERENCE_FILES/Genome_Builds/1_Build_GRCh38.md)
 
-- Long-Read Oxford Nanopore
+- Variant Catalogs: [_Overview_](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md) / [_dbSNP_](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md) / [_Mills_and_1kGP_](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
 
-    [Overview](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) - [Alignment](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [Read Groups](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md) - [Methylation and Tags](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
-
-#### REFERENCE FILES
-
-- Genome Builds
-
-    [Overview](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md) - [Build GRCh38](/DOCS/REFERENCE_FILES/Genome_Builds/1_Build_GRCh38.md)
-
-- Variant Catalogs
-
-    [Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md) - [dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md) - [Mills_and_1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
-
-#### [CHANGELOG](releases.md)
+##### [CHANGELOG](releases.md)
