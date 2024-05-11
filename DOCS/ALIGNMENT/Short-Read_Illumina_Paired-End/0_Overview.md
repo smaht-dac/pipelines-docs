@@ -23,6 +23,6 @@ The distributed version of the pipeline operates on reads divided by sequencing 
 
 ## Pipeline Chart
 
-![flow_chart](/IMAGES/Short-Read_Illumina_Paired-End.png)
+![flow_chart](Flow_Chart.png)
 
 [^1]: *Kendig KI, Baheti S, Bockol MA, Drucker TM, Hart SN, Heldenbrand JR, Hernaez M, Hudson ME, Kalmbach MT, Klee EW, Mattson NR, Ross CA, Taschuk M, Wieben ED, Wiepert M, Wildman DE, Mainzer LS.* Sentieon DNASeq Variant Calling Workflow Demonstrates Strong Computational Performance and Accuracy. *Front Genet. 2019 Aug 20;10:736.* doi: 10.3389/fgene.2019.00736.
