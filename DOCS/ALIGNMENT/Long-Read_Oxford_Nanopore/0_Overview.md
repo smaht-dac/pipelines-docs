@@ -8,3 +8,7 @@ The long-read alignment pipeline for ONT data is designed for per-sample and per
 1. **Alignment with minimap2:** Initial alignment of the raw reads to the reference genome using minimap2.
 2. **Read Groups Assignment:** Assignment of reads to specific groups.
 3. **Methylation and Tags Linking:** Linking the methylation status information and other specific tags from the unaligned to the alignment BAM file.
+
+## Pipeline Chart
+
+![flow_chart](Flow_Chart.png)
