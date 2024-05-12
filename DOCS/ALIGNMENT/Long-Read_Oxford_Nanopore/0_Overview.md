@@ -11,4 +11,4 @@ The long-read alignment pipeline for ONT data is designed for per-sample and per
 
 ## Pipeline Chart
 
-![flow_chart](Flow_Chart.png)
+![flow_chart](Flow_Chart_Pipeline.png)

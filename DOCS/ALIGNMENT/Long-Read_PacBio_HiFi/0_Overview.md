@@ -11,4 +11,4 @@ The long-read alignment pipeline for PacBio HiFi data is designed for per-sample
 
 ## Pipeline Chart
 
-![flow_chart](Flow_Chart.png)
+![flow_chart](Flow_Chart_Pipeline.png)
