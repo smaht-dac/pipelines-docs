@@ -19,3 +19,29 @@ This version excludes ALT contigs and Human decoy sequences from hs38d1 (GCA_000
 *Note: The two PAR regions on chrY have been hard-masked with Ns, and the chromosome Y sequence is not identical to the GenBank sequence but shares the same coordinates. Similarly, duplicate copies of centromeric arrays and WGS on chromosomes 5, 14, 19, 21 & 22 have been hard-masked with Ns.*
 
 *Note: The EBV sequence is not part of the genome assembly but is included in the analysis set for aligning reads often present in sequencing samples.*
+
+## Generating FASTA Index Files
+
+##### Decompress the FNA file 
+
+```text
+gunzip GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
+```
+
+##### Change the file extension to `.fasta `
+
+```text
+mv GCA_000001405.15_GRCh38_no_alt_analysis_set.fna GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
+```
+
+##### Create the `faidx` index (requires [samtools](https://www.htslib.org/))
+
+```text
+samtools faidx GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
+```
+
+##### Create the sequence dictionary (requires [picard](https://broadinstitute.github.io/picard/))
+
+```text
+java -jar picard.jar CreateSequenceDictionary R=GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
+```
