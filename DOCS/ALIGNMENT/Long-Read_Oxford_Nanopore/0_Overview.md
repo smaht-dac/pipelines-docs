@@ -15,4 +15,4 @@ The long-read alignment pipeline for ONT data is designed for per-sample and per
 
 ---
 
-[_Home_](/README.md) - [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md) - [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
+[_Home_](pipelines-docs/) - [_Alignment_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.html) - [_Read Groups_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.html) - [_Methylation and Tags_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.html)

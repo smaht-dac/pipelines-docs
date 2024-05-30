@@ -36,4 +36,4 @@ All the relevant code is accessible in the GitHub repository:
 
 ---
 
-[_Home_](README.md) - [_Overview_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) - [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
+[_Home_](pipelines-docs/) - [_Overview_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.html) - [_Alignment_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.html) - [_Methylation and Tags_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.html)

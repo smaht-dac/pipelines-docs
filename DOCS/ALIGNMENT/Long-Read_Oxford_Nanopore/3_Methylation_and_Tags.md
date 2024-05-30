@@ -9,4 +9,4 @@ The pipeline is using [methylink](https://github.com/projectoriented/methylink) 
 
 ---
 
-[_Home_](README.md) - [_Overview_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) - [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md)
+[_Home_](pipelines-docs/) - [_Overview_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.html) - [_Alignment_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.html) - [_Read Groups_](pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.html)
