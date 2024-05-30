@@ -9,7 +9,4 @@ The pipeline is using [methylink](https://github.com/projectoriented/methylink) 
 
 ---
 
-<!-- This is html code that relies on the pages created by github to link PREV and NEXT page -->
-<p style="text-align:left;">
-    <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.html"> PREV [<i> Read Groups </i>] </a>
-</p>
+[_Home_](README.md) - [_Overview_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) - [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md)

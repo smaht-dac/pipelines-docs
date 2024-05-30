@@ -15,10 +15,4 @@ The long-read alignment pipeline for ONT data is designed for per-sample and per
 
 ---
 
-<!-- This is html code that relies on the pages created by github to link PREV and NEXT page -->
-<p style="text-align:left;">
-    <a href="https://smaht-dac.github.io/pipelines-docs/"> PREV [<i> Home </i>] </a>
-    <span style="float:right;">
-        <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.html"> NEXT [<i> Alignment </i>] </a>
-    </span>
-</p>
+[_Home_](/README.md) - [_Alignment_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md) - [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md) - [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)

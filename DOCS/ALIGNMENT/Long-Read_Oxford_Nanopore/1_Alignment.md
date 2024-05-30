@@ -35,10 +35,4 @@ All the relevant code can be accessed in the GitHub repository:
 
 ---
 
-<!-- This is html code that relies on the pages created by github to link PREV and NEXT page -->
-<p style="text-align:left;">
-    <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.html"> PREV [<i> Overview </i>] </a>
-    <span style="float:right;">
-        <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.html"> NEXT [<i> Read Groups </i>] </a>
-    </span>
-</p>
+[_Home_](/README.md) - [_Overview_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.md) - [_Read Groups_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.md) - [_Methylation and Tags_](/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.md)
