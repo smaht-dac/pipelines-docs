@@ -12,3 +12,5 @@ The long-read alignment pipeline for ONT data is designed for per-sample and per
 ## Pipeline Chart
 
 ![flow_chart](Flow_Chart_Pipeline.png)
+
+<div style="text-align: right"> <a href="/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.md">NEXT - Alignment</a> </div>
