@@ -33,3 +33,13 @@ E.g., in BAM file:
 All the relevant code is accessible in the GitHub repository:
 
   - [ImportReadGroups_methylink.sh](https://github.com/smaht-dac/alignment-pipelines/blob/main/dockerfiles/methylink/ImportReadGroups_methylink.sh) [ImportReadGroups]
+
+---
+
+<!-- This is html code that relies on the pages created by github to link PREV and NEXT page -->
+<p style="text-align:left;">
+    <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/1_Alignment.html"> PREV [<i> Alignment </i>] </a>
+    <span style="float:right;">
+        <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/3_Methylation_and_Tags.html"> NEXT [<i> Methylation and Tags </i>] </a>
+    </span>
+</p>

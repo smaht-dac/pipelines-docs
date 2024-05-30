@@ -32,3 +32,13 @@ Sentieon implementation replicates the original [minimap2](https://github.com/lh
 All the relevant code can be accessed in the GitHub repository:
 
   - [sentieon_minimap2_sort.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_minimap2_sort.sh) [minimap2]
+
+---
+
+<!-- This is html code that relies on the pages created by github to link PREV and NEXT page -->
+<p style="text-align:left;">
+    <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/0_Overview.html"> PREV [<i> Overview </i>] </a>
+    <span style="float:right;">
+        <a href="https://smaht-dac.github.io/pipelines-docs/DOCS/ALIGNMENT/Long-Read_Oxford_Nanopore/2_Read_Groups.html"> NEXT [<i> Read Groups </i>] </a>
+    </span>
+</p>
