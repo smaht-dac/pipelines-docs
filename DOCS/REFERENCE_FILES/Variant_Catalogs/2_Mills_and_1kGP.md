@@ -7,9 +7,7 @@ The specific version in use is accessible for download [here](https://console.cl
 
 - **Variants VCF:** Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
 
-<sub><b>1</b>: *Mills RE, Luttig CT, Larkins CE, Beauchamp A, Tsui C, Pittard WS, Devine SE.* An initial map of insertion and deletion (INDEL) variation in the human genome. *Genome Res. 2006 Sep;16(9):1182-90.* doi: 10.1101/gr.4565806</sub>
-
-<sub><b>2</b>: *The 1000 Genomes Project Consortium.* A global reference for human genetic variation. *Nature 526, 68–74 (2015).* doi: 10.1038/nature15393</sub>
+<sub><b>1</b>: *Mills RE, Luttig CT, Larkins CE, Beauchamp A, Tsui C, Pittard WS, Devine SE.* An initial map of insertion and deletion (INDEL) variation in the human genome. *Genome Res. 2006 Sep;16(9):1182-90.* doi: 10.1101/gr.4565806; <b>2</b>: *The 1000 Genomes Project Consortium.* A global reference for human genetic variation. *Nature 526, 68–74 (2015).* doi: 10.1038/nature15393</sub>
 
 ---
 
