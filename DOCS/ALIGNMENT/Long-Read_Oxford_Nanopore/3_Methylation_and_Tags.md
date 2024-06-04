@@ -15,5 +15,6 @@ and will not render correctly in Markdown -->
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
     <a href="1_Alignment.html"> Alignment </a> -
-    <a href="2_Read_Groups.html"> Read Groups </a>
+    <a href="2_Read_Groups.html"> Read Groups </a> -
+    <a> <b> Methylation and Tags </b> </a>
 </div>

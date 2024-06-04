@@ -40,6 +40,7 @@ and will not render correctly in Markdown -->
 <div style="text-align: right">
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
+    <a> <b> Alignment </b> </a> -
     <a href="2_Read_Groups.html"> Read Groups </a> -
     <a href="3_Methylation_and_Tags.html"> Methylation and Tags </a>
 </div>

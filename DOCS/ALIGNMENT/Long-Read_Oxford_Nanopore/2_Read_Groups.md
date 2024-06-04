@@ -42,5 +42,6 @@ and will not render correctly in Markdown -->
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
     <a href="1_Alignment.html"> Alignment </a> -
+    <a> <b> Read Groups </b> </a> -
     <a href="3_Methylation_and_Tags.html"> Methylation and Tags </a>
 </div>
