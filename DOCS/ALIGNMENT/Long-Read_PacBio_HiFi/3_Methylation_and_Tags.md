@@ -18,9 +18,7 @@ Fiber-seq generates the following tags:
 - **as (Methyltransferase Accessible Patch Start Positions):** Start positions of identified methyltransferase accessible patches (MSP) along the read.
 - **al (MSP Lengths):** Lengths of each MSP along the read.
 
-<sub>References</sub>
-
-<sub><b>1</b>: *Andrew B. Stergachis et al.* Single-molecule regulatory architectures captured by chromatin fiber sequencing. *Science 368, 1449-1454(2020).* doi: 10.1126/science.aaz1646.</sub>
+<sub><b>1</b>: *Andrew B. Stergachis et al.* Single-molecule regulatory architectures captured by chromatin fiber sequencing. *Science 368, 1449-1454(2020).* doi: 10.1126/science.aaz1646</sub>
 
 ---
 
