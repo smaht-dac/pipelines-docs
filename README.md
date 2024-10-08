@@ -30,6 +30,10 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
     [Overview](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md) - [Build GRCh38](/DOCS/REFERENCE_FILES/Genome_Builds/1_Build_GRCh38.md)
 
+- Genome Annotations
+
+    [Overview](/DOCS/REFERENCE_FILES/Genome_Annotations/0_Overview.md) - [GENCODE](/DOCS/REFERENCE_FILES/Genome_Annotations/1_GENCODE.md)
+
 - Variant Catalogs
 
     [Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md) - [dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md) - [Mills and 1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)

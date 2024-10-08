@@ -25,7 +25,7 @@ sentieon driver -r reference.fasta
                 --algo ReadWriter
                 recalibrated.bam
 ```
-*Note: keep_oq=true in the --read_filter argument will preserve the original base quality scores by using the OQ tag in the recalibrated bam file.*
+*Note: keep_oq=true in the -\-read_filter argument will preserve the original base quality scores by using the OQ tag in the recalibrated bam file.*
 
 ## Integrity Check
 
