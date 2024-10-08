@@ -21,10 +21,11 @@ sentieon driver -r reference.fasta
 ```text
 sentieon driver -r reference.fasta
                 -i realigned.bam
-                -q recal_data.table
+                --read_filter 'QualCalFilter,table=recal_data.table,keep_oq=true'
                 --algo ReadWriter
                 recalibrated.bam
 ```
+*Note: keep_oq=true in the --read_filter argument will preserve the original base quality scores by using the OQ tag in the recalibrated bam file.*
 
 ## Integrity Check
 

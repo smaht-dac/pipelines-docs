@@ -33,7 +33,7 @@ Default set by pbmm2 for minimap2:
 - Overlapping query intervals with repeated matches trimming are disabled.
 - Secondary alignments are excluded with `--secondary=no`.
 
-*Note: Due to multi-threading the output alignment ordering can differ between multiple runs with the same input parameters. The same can occur even with option --sort for records that align to the same target sequence, the same position within that target, and in the same orientation, which are the only fields that samtools sort uses.*
+*Note: Due to multi-threading the output alignment ordering can differ between multiple runs with the same input parameters. The same can occur even with option -\-sort for records that align to the same target sequence, the same position within that target, and in the same orientation, which are the only fields that samtools sort uses.*
 
 ---
 
