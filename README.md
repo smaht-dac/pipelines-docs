@@ -38,4 +38,8 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
     [Overview](/DOCS/REFERENCE_FILES/Variant_Catalogs/0_Overview.md) - [dbSNP](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md) - [Mills and 1kGP](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
 
+- Software Specific
+
+    [BWT Index](/DOCS/REFERENCE_FILES/Software_Specific/0_BWT_Index.md) - [STAR Index](/DOCS/REFERENCE_FILES/Software_Specific/1_STAR_Index.md) - [RSEM Reference](/DOCS/REFERENCE_FILES/Software_Specific/2_RSEM_Reference.md)
+
 ##### [CHANGELOG](releases.md)
