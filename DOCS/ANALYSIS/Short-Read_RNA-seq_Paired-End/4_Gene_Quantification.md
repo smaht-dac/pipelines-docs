@@ -25,7 +25,7 @@ The pipeline implements [RNA-SeQC](https://github.com/getzlab/rnaseqc) version 2
 
 All the relevant code can be accessed in the GitHub repository:
 
-  - [run_rnaseqc.py](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/dockerfiles/gtex_v10/src/run_rnaseqc.py)<sup><sub>1</sub></sup> [RNA-SeQC Python-wrap]
+  - [run_rnaseqc.py](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/dockerfiles/gtex_v10/src/run_rnaseqc.py)<sup><sub>1</sub></sup> [RNA-SeQC]
 
 <sub><b>1</b>: *Original author: Francois Aguet, Modified by: Michele Berselli*</sub>
 

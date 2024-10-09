@@ -30,7 +30,7 @@ The pipeline implements [RSEM](https://github.com/deweylab/RSEM) version v1.3.3.
 
 All the relevant code can be accessed in the GitHub repository:
 
-  - [run_RSEM.py](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/dockerfiles/gtex_v10/src/run_RSEM.py)<sup><sub>1</sub></sup> [RSEM Python-wrap]
+  - [run_RSEM.py](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/dockerfiles/gtex_v10/src/run_RSEM.py)<sup><sub>1</sub></sup> [RSEM]
 
 <sub><b>1</b>: *Original author: Francois Aguet*</sub>
 
