@@ -1,5 +1,5 @@
 
-# Short-Read RNA-seq, Paired-End
+# Short-Read RNA-seq, *Paired-End*
 
 The paired-end short-read analysis pipeline for RNA-seq data is based on GTEx<sup><sub>1</sub></sup> and TOPMed<sup><sub>2</sub></sup> analysis pipelines. It is designed for per-sample execution, handling one or multiple sets of paired FASTQ files.
 
