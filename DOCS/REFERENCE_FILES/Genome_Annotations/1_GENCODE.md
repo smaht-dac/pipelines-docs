@@ -1,11 +1,17 @@
 
 # GENCODE
 
-The GENCODE project provides comprehensive annotation of gene features for the human genome, including coding and non-coding genes, pseudogenes, and other significant genomic elements.
+The GENCODE project<sup><sub>1</sub></sup> provides comprehensive annotation of gene features for the human genome, including coding and non-coding genes, pseudogenes, and other significant genomic elements.
 
 The specific version in use is GENCODE Release 45 (GRCh38.p14), which aligns with the Genome Reference Consortium Human Build 38 (GRCh38) and is accessible for download [here](https://www.gencodegenes.org/human/release_45.html).
 
 ## Collapsing GENCODE Annotation
+
+##### Download comprehensive gene annotation
+
+```text
+wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.annotation.gtf.gz
+```
 
 ##### Collapse gene annotation
 
@@ -15,9 +21,9 @@ python3 collapse_annotation.py \
     gencode.v45.genes.gtf
 ```
 
-Source code for the ``collapse_annotation.py`` script is available [here](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/preprocessing/collapse_annotation.py).
+Source code for the ``collapse_annotation.py``<sup><sub>2</sub></sup> script is available [here](https://github.com/smaht-dac/rnaseq-pipelines/blob/main/preprocessing/collapse_annotation.py).
 
-*Original author: Francois Aguet.*
+<sub><b>1</b>: *Frankish A, et al.* GENCODE: reference annotation for the human and mouse genomes in 2023. *Nucleic Acids Res., Volume 51, Issue D1, 6 January 2023, Pages D942–D949.* doi: 10.1093/nar/gkac1071; <b>2</b>: *Original author: Francois Aguet*</sub>
 
 ---
 
