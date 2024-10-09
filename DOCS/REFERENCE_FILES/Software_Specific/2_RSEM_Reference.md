@@ -42,7 +42,7 @@ java -jar picard.jar \
 
 ## Generating RSEM Reference
 
-##### Generate RSEM Reference
+##### Generate RSEM reference
 
 ```text
 rsem-prepare-reference \
