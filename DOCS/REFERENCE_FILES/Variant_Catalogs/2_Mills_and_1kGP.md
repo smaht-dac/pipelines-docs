@@ -1,5 +1,5 @@
 
-# Mills and 1000 Genomes Project (1kGP)
+# Mills and 1000 Genomes Project
 
 Mills<sup><sub>1</sub></sup> and 1000 Genomes Project<sup><sub>2</sub></sup> (1kGP) dataset is a comprehensive catalog of insertion and deletion polymorphisms, offering a resource for understanding common genetic variations.
 

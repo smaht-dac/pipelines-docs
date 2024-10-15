@@ -10,6 +10,10 @@ The paired-end short-read analysis pipeline for RNA-seq data is based on GTEx<su
 3. **Transcript Quantification:** Transcript-level quantification using RSEM.
 4. **Gene Quantification:** Gene-level quantification using RNA-SeQC.
 
+## Sentieon Software
+
+To meet the scalability demands, the pipeline utilizes a more efficient software implementation from [Sentieon](https://www.sentieon.com/). Sentieon offers a comprehensive toolkit that replicates the original STAR and GATK algorithms, while enhancing computational efficiency.
+
 ## Pipeline Chart
 
 ![flow_chart](Flow_Chart_Pipeline.png)

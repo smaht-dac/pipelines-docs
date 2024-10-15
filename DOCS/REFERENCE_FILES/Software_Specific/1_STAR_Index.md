@@ -3,7 +3,7 @@
 
 The STAR index is generated from the standard Genome Reference Consortium Human Build 38 (GRCh38) released by the Broad Institute, as described in [GTEx](https://github.com/broadinstitute/gtex-pipeline) analysis pipeline.
 
-The STAR index uses GENCODE Release 45. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.
+The STAR index uses GENCODE comprehensive gene annotations. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.
 
 ## Downloading and Preparing the Genome Reference
 
@@ -47,9 +47,9 @@ java -jar picard.jar \
 ```text
 sentieon STAR \
   --runMode genomeGenerate \
-  --genomeDir STARv2710b_assembly38_noALT_noHLA_noDecoy_v45 \
+  --genomeDir STARv2710b_assembly38_noALT_noHLA_noDecoy \
   --genomeFastaFiles Homo_sapiens_assembly38_noALT_noHLA_noDecoy.fasta \
-  --sjdbGTFfile gencode.v45.annotation.gtf \
+  --sjdbGTFfile gencode.annotation.gtf \
   --sjdbOverhang read_length-1
 ```
 

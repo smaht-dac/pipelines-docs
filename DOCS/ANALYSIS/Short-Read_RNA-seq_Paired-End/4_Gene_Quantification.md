@@ -15,7 +15,7 @@ rnaseqc collapsed_gene_model.gtf \
         --stranded rf
 ```
 
-*Note: The above command assumes a paired-end, RF/fr-firststrand stranded protocol. The collapsed gene model was generate using GENCODE Release 45. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.*
+*Note: The above command assumes a paired-end, RF/fr-firststrand stranded protocol. The collapsed gene model was generate using GENCODE comprehensive gene annotations. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.*
 
 ## Implementation with RNA-SeQC
 

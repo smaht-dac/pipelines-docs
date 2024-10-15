@@ -1,7 +1,7 @@
 
-# Burrows-Wheeler Transform (BWT) Index
+# Burrows-Wheeler Transform Index
 
-The BWT index is generated from the Genome Reference Consortium Human Build 38 (GRCh38), specifically version GCA_000001405.15 using the no_alt_analysis_set. 
+The Burrows-Wheeler Transform (BWT) index is generated from the Genome Reference Consortium Human Build 38 (GRCh38), specifically version GCA_000001405.15 using the no_alt_analysis_set. 
 
 For more detailed information about this reference genome, please refer to the build GRCh38 documentation under “Genome Builds” section.
 

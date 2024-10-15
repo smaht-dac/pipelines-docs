@@ -3,7 +3,7 @@
 
 The RSEM Reference is generated from the standard Genome Reference Consortium Human Build 38 (GRCh38) released by the Broad Institute, as described in [GTEx](https://github.com/broadinstitute/gtex-pipeline) analysis pipeline.
 
-The RSEM Reference uses GENCODE Release 45. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.
+The RSEM Reference uses GENCODE comprehensive gene annotations. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.
 
 ## Downloading and Preparing the Genome Reference
 
@@ -46,7 +46,7 @@ java -jar picard.jar \
 
 ```text
 rsem-prepare-reference \
-    --gtf gencode.v45.annotation.gtf \
+    --gtf gencode.annotation.gtf \
     Homo_sapiens_assembly38_noALT_noHLA_noDecoy.fasta \
     rsem_reference
 ```
