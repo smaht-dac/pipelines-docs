@@ -1,6 +1,6 @@
 # CHANGELOG
 
-# Release 0.1.0
+## Current Release (0.1.0)
 
 This release includes the following modules:
 
@@ -11,7 +11,7 @@ This release includes the following modules:
 - **rnaseq-pipelines** (Commit Hash: )
 - **smaht-pipeline-utils** (Commit Hash: )
 
-## Pipelines
+### Pipelines
 
 | Pipeline                                  | Category                                | Status/Changes                                         |
 |-------------------------------------------|-----------------------------------------|--------------------------------------------------------|
@@ -24,7 +24,7 @@ This release includes the following modules:
 | **Short-Read Unaligned (FASTQ)**          | Quality Control                         | + Added Kraken2                                        |
 | **Long-Read Unaligned (FASTQ, uBAM)**     | Quality Control                         | *New pipeline added*                                   |
 
-## Software
+### Software
 
 | Software         | Category                      | Version      | Commands                                         | Source               |
 |------------------|-------------------------------|--------------|--------------------------------------------------|----------------------|

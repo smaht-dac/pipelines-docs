@@ -63,4 +63,4 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
     - [STAR Index](/DOCS/REFERENCE_FILES/Software_Specific/1_STAR_Index.md)
     - [RSEM Reference](/DOCS/REFERENCE_FILES/Software_Specific/2_RSEM_Reference.md)
 
-##### [CHANGELOG](releases.md)
+##### [Release CHANGELOG](releases.md)
