@@ -30,8 +30,6 @@ Arguments:
 
 - *-\-optical_dup_pix_dist*: maximum offset between two duplicate clusters to consider them optical duplicates. For structured flow cells (NovaSeq, HiSeq 4000, X), the pipeline uses 2500.
 
-*Note: The actual implementation of the above command in the pipeline is more complex to support distributed execution, but functionally equivalent.*
-
 ## Integrity Check
 
 To confirm the integrity of the alignment BAM file, in-house Python code checks for the presence of the 28-byte empty block representing the EOF marker in BAM format.
@@ -53,8 +51,7 @@ java -jar picard.jar MarkDuplicates
 
 All the relevant code can be accessed in the GitHub repository:
 
-  - [sentieon_LocusCollector.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector.sh) [LocusCollector]
-  - [sentieon_LocusCollector_apply.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_LocusCollector_apply.sh) [Dedup]
+  - [sentieon_Dedup.sh](https://github.com/smaht-dac/sentieon-pipelines/blob/main/dockerfiles/sentieon/sentieon_Dedup.sh) [LocusCollector + Dedup]
 
 ---
 
@@ -64,9 +61,7 @@ and will not render correctly in Markdown -->
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
     <a href="1_Alignment.html"> Alignment </a> -
-    <a href="2_Read_Groups.html"> Read Groups </a> -
     <a> <b> Duplicate Reads </b> </a> -
-    <a href="4_Local_Realignment.html"> Local Realignment </a> -
-    <a href="5_Base_Quality_Score_Recalibration.html"> Base Quality Score Recalibration </a> -
-    <a href="6_Hi-C.html"> Hi-C </a>
+    <a href="3_Transcript_Quantification.html"> Transcripts </a> -
+    <a href="4_Gene_Quantification.html"> Genes </a>
 </div>
