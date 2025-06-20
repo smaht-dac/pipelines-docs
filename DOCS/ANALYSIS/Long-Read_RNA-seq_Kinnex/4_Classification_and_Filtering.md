@@ -39,7 +39,7 @@ pigeon classify \
 
 Arguments:
 
-- *isoform, annotation, and reference input files must be preprocessed using the pigeon prepare step.*
+- *isoform, annotation, and reference input files must be preprocessed using the Pigeon `prepare` step.*
 - *-\-fl*: file with FLNC read counts from the collapsing step. Required to include read support in the classification output.
 - *-\-cage-peak*: BED file with CAGE peaks information. Used to improve annotation of transcription start sites (TSS).
 - *-\-poly-a*: file in Pigeon custom format with polyA motifs. Used to improve annotation of polyA sites.
@@ -54,8 +54,7 @@ pigeon filter classification.txt --isoforms sorted_isoforms.gff
 
 Arguments:
 
-- *isoform input file must also be preprocessed using pigeon prepare.*
-- *-\-isoforms* enables generation of a filtered GFF file as additional output.
+- *-\-isoforms* enables generation of a filtered GFF file as additional output. Input isoform file must be preprocessed using Pigeon `prepare`.
 
 This command filters isoforms from the classification output.
 
