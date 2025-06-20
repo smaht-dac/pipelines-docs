@@ -22,7 +22,7 @@ Reads are annotated in the BAM format using the following custom tags:
 
 ##### Annotate FLNC reads
 
-```bash
+```text
 FLNC_ImportTags.py \
   --input_flnc flnc.bam \
   --output_flnc annotated_flnc.bam \
