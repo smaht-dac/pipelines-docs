@@ -24,10 +24,10 @@ Reads are annotated in the BAM format using the following custom tags:
 
 ```text
 FLNC_ImportTags.py \
-  --input_flnc flnc.bam \
+  --input_flnc aligned_flnc.bam \
   --output_flnc annotated_flnc.bam \
   --read_stat read_stat.txt \
-  --classification classification.txt \
+  --classification filtered_classification.txt \
   --index
 ```
 
@@ -35,7 +35,7 @@ FLNC_ImportTags.py \
 
 - *-\-input_flnc*: input BAM file containing aligned FLNC reads to annotate.
 - *-\-read_stat*: file from the IsoSeq collapsing step with read-to-isoform mappings (read_stat).
-- *-\-classification*: classification file from `pigeon classify` or `pigeon filter` step.
+- *-\-classification*: classification file from Pigeon `filter` step.
 - *-\-index*: flag to index the output BAM file. Requires the reads to be sorted.
 
 ## Implementation

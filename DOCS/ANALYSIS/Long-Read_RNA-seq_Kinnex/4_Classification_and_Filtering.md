@@ -23,13 +23,13 @@ This command sorts and indexes the GTF annotation and genome FASTA for compatibi
 pigeon prepare collapsed_isoforms.gff
 ```
 
-This command formats and indexes the collapsed isoforms generated in the previous step for compatibility with Pigeon.
+This command sorts and indexes the collapsed isoforms generated in the previous step for compatibility with Pigeon.
 
 ##### Classify isoforms
 
 ```text
 pigeon classify \
-  collapsed_isoforms.gff \
+  sorted_isoforms.gff \
   annotation.gtf \
   reference.fasta  \
   --fl flnc_count.txt \
@@ -49,7 +49,7 @@ Arguments:
 ##### Filter high-confidence isoforms
 
 ```text
-pigeon filter classification.txt --isoforms collapsed_isoforms.gff
+pigeon filter classification.txt --isoforms sorted_isoforms.gff
 ```
 
 Arguments:
