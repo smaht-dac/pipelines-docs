@@ -1,5 +1,5 @@
 
-# Annotation
+# Read Annotation
 
 In this step, the pipeline annotates individual Full Length Non Chimeric (FLNC) reads with the isoform-level classifications generated in the previous step. This allows downstream analyses to trace high-confidence isoforms back to the specific supporting reads.
 
