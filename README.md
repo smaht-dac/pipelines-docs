@@ -44,11 +44,11 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
 - [**Long-Read RNA-seq, *PacBio Kinnex***](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/0_Overview.md)
 
-    - [Clustering](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/1_Clustering.md)
+    - [Read Clustering](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/1_Clustering.md)
     - [Alignment](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/2_Alignment.md)
-    - [Collapsing](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/3_Collapsing.md)
-    - [Classification and Filtering](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/4_Classification_and_Filtering.md)
-    - [Annotation](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/5_Annotation.md)
+    - [Transcript Collapsing](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/3_Collapsing.md)
+    - [Isoform Classification and Filtering](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/4_Classification_and_Filtering.md)
+    - [Read Annotation](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/5_Annotation.md)
 
 ##### REFERENCE FILES
 
