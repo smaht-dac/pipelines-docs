@@ -13,7 +13,7 @@ The output includes a set of high-confidence isoforms, along with detailed class
 pigeon prepare annotation.gtf reference.fasta
 ```
 
-This command sorts and indexes the GTF annotation and genome FASTA for compatibility with Pigeon.
+This command sorts and indexes the GTF annotation and genome FASTA files for compatibility with Pigeon.
 
 *Note: The annotation file used is the GENCODE comprehensive gene annotations. For more detailed information please refer to the GENCODE documentation under “Genome Annotations” section.*
 
@@ -40,7 +40,7 @@ pigeon classify \
 Arguments:
 
 - *isoform, annotation, and reference input files must be preprocessed in the prepare step.*
-- *-\-fl*: file with FLNC read counts from the collapsing step. Required to include read support in the classification output.
+- *-\-fl*: file with Full Length Non Chimeric (FLNC) read counts from the collapsing step. Required to include read support in the classification output.
 - *-\-cage-peak*: BED file with CAGE peaks information. Used to improve annotation of transcription start sites (TSS).
 - *-\-poly-a*: file in Pigeon custom format with polyA motifs. Used to improve annotation of polyA sites.
 
