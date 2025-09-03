@@ -5,7 +5,7 @@ Methylation, and other tags are linked from the unaligned to the alignment BAM f
 
 ## Implementation with methylink
 
-The pipeline is using [methylink](https://github.com/projectoriented/methylink) version 0.6.0.
+The pipeline uses [methylink](https://github.com/projectoriented/methylink) version 0.6.0.
 
 ---
 
