@@ -43,7 +43,7 @@ sentieon STAR \
   --chimOutJunctionFormat 0 \
   --outSAMattributes NH HI AS nM NM ch \
   --outFileNamePrefix star_out/OUT. \
-  | samtools sort --no-PG -o sorted.bam -
+  | samtools sort -o sorted.bam -
 ```
 
 *Note: The STAR index was generated using a slightly modified version of the reference genome that excludes ALT, HLA and Decoy contigs. Please refer to the reference files section for further details.*
