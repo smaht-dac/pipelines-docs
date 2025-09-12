@@ -10,13 +10,12 @@ Both the aligned consensus reads and the original Full Length Non Chimeric (FLNC
 ##### Collapse redundant transcripts into unique isoforms
 
 ```text
-isoseq collapse --do-not-collapse-extra-5exons aligned_transcripts.bam flnc.bam collapsed_isoforms.gff
+isoseq collapse aligned_transcripts.bam flnc.bam collapsed_isoforms.gff
 ```
 
 Arguments:
 
 - *flnc.bam*: original FLNC reads used to assess transcript support by counting the number of reads mapped to each isoform.
-- *-\-do-not-collapse-extra-5exons*: prevents collapsing of isoforms that differ only in extra 5’ exons. This preserves transcription start site (TSS) diversity and is recommended for bulk Iso-Seq applications.
 
 *Note: In addition to the GFF, the output includes a TXT file with read-to-isoform mappings, a TXT file listing transcript support statistics (FLNC counts), and a JSON file with detailed metrics. These files are required for downstream annotation and quality control.*
 
