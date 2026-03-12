@@ -1,7 +1,9 @@
 
 # Long-Read PacBio HiFi
 
-The long-read alignment pipeline for PacBio HiFi data is designed for per-sample and per-library execution, handling one or multiple unaligned BAM files. The pipeline is optimized for distributed processing, requiring each unaligned BAM file to correspond to a single SMRT Cell.
+The long-read alignment pipeline for PacBio HiFi data is designed for per-sample and per-library execution, handling one or multiple unaligned BAM files.
+
+The pipeline is optimized for distributed processing, requiring each unaligned BAM file to correspond to a single SMRT Cell.
 
 ## Key Pipeline Steps
 

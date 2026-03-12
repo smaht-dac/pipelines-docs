@@ -36,7 +36,7 @@ The relevant fields in defining a read group include:
 
 ## Assigning Read Groups
 
-During the alignment process using pbmm2, the original read groups from the unaligned BAM files are linked and maintained in the corresponding alignment BAM files. In-house bash code that utilizes samtools replaces `SM` and `LB` information with the correct identifiers used by the portal, as follows:
+During the alignment process using pbmm2, the original read groups from the unaligned BAM files are linked and maintained in the corresponding alignment BAM files. In-house bash code that utilizes Samtools replaces `SM` and `LB` information with the correct identifiers used by the portal, as follows:
 
 - **SM:** `<sample name>`
 - **LB:** `<sample name>.<library>`

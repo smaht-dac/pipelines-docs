@@ -50,6 +50,18 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
     - [Isoform Classification and Filtering](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/4_Classification_and_Filtering.md)
     - [Read Annotation](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/5_Annotation.md)
 
+- [**Germline Variant Calling, *DNAscope Hybrid***](/DOCS/ANALYSIS/DNAscopeHybrid.md)
+
+- [**SMaHT Single-Nucleotide Variant Calling**](/DOCS/ANALYSIS/SNV_SMaHT/0_Overview.md)
+
+    - [Short-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/1_Short_Read_Calling.md)
+    - [Long-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/2_Long_Read_Calling.md)
+    - [Calls Merging and Normalization](/DOCS/ANALYSIS/SNV_SMaHT/3_Calls_Merging.md)
+    - [Hierarchical Filtering](/DOCS/ANALYSIS/SNV_SMaHT/4_Filtering.md)
+    - [Cross-Technology Validation](/DOCS/ANALYSIS/SNV_SMaHT/5_Cross_Validation.md)
+    - [Donor-Level Refinement](/DOCS/ANALYSIS/SNV_SMaHT/6_Donor_Level_Refinement.md)
+    - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/7_Confidence_Designation.md)
+
 ##### REFERENCE FILES
 
 - [**Genome Builds**](/DOCS/REFERENCE_FILES/Genome_Builds/0_Overview.md)
@@ -64,8 +76,10 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
     - [Single Nucleotide Polymorphism Database](/DOCS/REFERENCE_FILES/Variant_Catalogs/1_dbSNP.md)
     - [Mills and 1000 Genomes Project](/DOCS/REFERENCE_FILES/Variant_Catalogs/2_Mills_and_1kGP.md)
+    - [gnomAD Population Allele Frequencies for Mutect2](/DOCS/REFERENCE_FILES/Variant_Catalogs/3_AF_gnomAD_Mutect2.md)
+    - [Brain Somatic Mosaicism Network Panel of Normals](/DOCS/REFERENCE_FILES/Variant_Catalogs/4_BSMN_PON.md)
 
-- Software Specific
+- **Software Specific**
 
     - [Burrows-Wheeler Transform Index](/DOCS/REFERENCE_FILES/Software_Specific/0_BWT_Index.md)
     - [STAR Index](/DOCS/REFERENCE_FILES/Software_Specific/1_STAR_Index.md)

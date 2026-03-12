@@ -1,9 +1,9 @@
 
 # Mills and 1000 Genomes Project
 
-Mills<sup><sub>1</sub></sup> and 1000 Genomes Project<sup><sub>2</sub></sup> (1kGP) dataset is a comprehensive catalog of insertion and deletion polymorphisms, offering a resource for understanding common genetic variations.
+The Mills<sup><sub>1</sub></sup> and 1000 Genomes Project<sup><sub>2</sub></sup> (1kGP) dataset is a comprehensive catalog of insertion and deletion polymorphisms, offering a resource for understanding common genetic variations.
 
-The specific version in use is accessible for download [here](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/) as part of the Genome Analysis Toolkit (GATK) resource bundle in following files:
+The specific version in use is accessible for download [here](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/) as part of the Genome Analysis Toolkit (GATK) resource bundle in the following file:
 
 - **Variants VCF:** Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
 
@@ -17,5 +17,7 @@ and will not render correctly in Markdown -->
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
     <a href="1_dbSNP.html"> dbSNP </a> -
-    <a> <b> Mills and 1kGP </b> </a>
+    <a> <b> Mills and 1kGP </b> </a> -
+    <a href="3_AF_gnomAD_Mutect2.html"> Mutect2 gnomAD AF </a> -
+    <a href="4_BSMN_PON.html"> BSMN PON </a>
 </div>

@@ -1,7 +1,9 @@
 
 # Long-Read Oxford Nanopore Technologies (ONT)
 
-The long-read alignment pipeline for ONT data is designed for per-sample and per-library execution, handling one or multiple FASTQ files and the corresponding unaligned BAM files. The pipeline is optimized for distributed processing, requiring each FASTQ file to correspond to a single flow cell.
+The long-read alignment pipeline for ONT data is designed for per-sample and per-library execution, handling one or multiple FASTQ files and the corresponding unaligned BAM files.
+
+The pipeline is optimized for distributed processing, requiring each FASTQ file to correspond to a single flow cell.
 
 ## Key Pipeline Steps
 

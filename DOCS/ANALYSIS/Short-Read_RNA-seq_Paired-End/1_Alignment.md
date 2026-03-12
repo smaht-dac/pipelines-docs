@@ -1,7 +1,9 @@
 
 # Alignment with STAR
 
-The pipeline uses STAR in paired-end mode for alignment to both the reference genome and the transcriptome. It accepts and processes multiple sets of paired FASTQ files in a single run, producing a unified output. The pipeline generates alignments to the reference genome, with reads sorted by genomic coordinates, and to the transcriptome. An integrity check is performed on the resulting BAM files.
+The pipeline uses STAR in paired-end mode for alignment to both the reference genome and the transcriptome. It accepts and processes multiple sets of paired FASTQ files in a single run, producing a unified output. 
+
+The pipeline generates alignments to the reference genome, with reads sorted by genomic coordinates, and to the transcriptome. An integrity check is performed on the resulting BAM files.
 
 ## Aligning and Sorting
 

@@ -3,7 +3,7 @@
 
 The Single Nucleotide Polymorphism Database<sup><sub>1</sub></sup> (dbSNP) is a comprehensive repository documenting single nucleotide changes in genomic DNA, offering a resource for understanding common genetic variations. While the primary focus is on single nucleotide polymorphisms, the database also contains short deletion and insertion polymorphisms, along with other sources of variation such as short tandem repeats and multinucleotide polymorphisms.
 
-The specific version in use is build 138, accessible for download [here](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/) as part of the Genome Analysis Toolkit (GATK) resource bundle in following files:
+The specific version in use is build 138, accessible for download [here](https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/) as part of the Genome Analysis Toolkit (GATK) resource bundle in the following file:
 
 - **Variants VCF:** Homo_sapiens_assembly38.dbsnp138.vcf
 
@@ -17,5 +17,7 @@ and will not render correctly in Markdown -->
     <a href="/pipelines-docs/"> Home </a> -
     <a href="0_Overview.html"> Overview </a> -
     <a> <b> dbSNP </b> </a> -
-    <a href="2_Mills_and_1kGP.html"> Mills and 1kGP </a>
+    <a href="2_Mills_and_1kGP.html"> Mills and 1kGP </a> -
+    <a href="3_AF_gnomAD_Mutect2.html"> Mutect2 gnomAD AF </a> -
+    <a href="4_BSMN_PON.html"> BSMN PON </a>
 </div>

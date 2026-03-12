@@ -1,7 +1,9 @@
 
 # Read Clustering
 
-In this step, the pipeline generates high-quality consensus transcript sequences from Full Length Non Chimeric (FLNC) reads. It accepts and processes one or multiple FLNC BAM files in a single run, producing a unified output. The consensus transcripts are used in downstream alignment, collapsing, and quantification.
+In this step, the pipeline generates high-quality consensus transcript sequences from Full Length Non Chimeric (FLNC) reads. It accepts and processes one or multiple FLNC BAM files in a single run, producing a unified output.
+
+The consensus transcripts are used in downstream alignment, collapsing, and quantification.
 
 ## Clustering FLNC Reads
 

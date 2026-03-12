@@ -1,7 +1,9 @@
 
 # Long-Read RNA-seq, *PacBio Kinnex*
 
-The long-read analysis pipeline for PacBio Kinnex RNA-seq data follows Iso-Seq processing guidelines<sup><sub>1</sub></sup>. It is designed for per-sample execution, handling one or more Full Length Non Chimeric (FLNC) BAM files. The pipeline has been extended to align and annotate FLNC reads with isoform-level information directly within the BAM file.
+The long-read analysis pipeline for PacBio Kinnex RNA-seq data follows Iso-Seq processing guidelines<sup><sub>1</sub></sup>. It is designed for per-sample execution, handling one or more Full Length Non Chimeric (FLNC) BAM files.
+
+The pipeline has been extended to align and annotate FLNC reads with isoform-level information directly within the BAM file.
 
 ## Key Pipeline Steps
 

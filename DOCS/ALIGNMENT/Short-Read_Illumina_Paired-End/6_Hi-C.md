@@ -1,7 +1,9 @@
 
 # Hi-C
 
-For the alignment of Hi-C data, the pipeline uses BWA-MEM in paired-end mode on each set of paired FASTQ files. The reads are then sorted by genomic coordinates, and an integrity check is performed on the resulting BAM file. Compared to standard alignment, extra flags are required to support the read pairs generated for the Hi-C data.
+For the alignment of Hi-C data, the pipeline uses BWA-MEM in paired-end mode on each set of paired FASTQ files. The reads are then sorted by genomic coordinates, and an integrity check is performed on the resulting BAM file.
+
+Compared to standard alignment, extra flags are required to support the read pairs generated for the Hi-C data.
 
 ## Aligning and Sorting
 
