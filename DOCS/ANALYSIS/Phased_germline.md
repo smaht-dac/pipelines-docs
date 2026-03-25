@@ -7,6 +7,8 @@
 
 This workflow describes a strategy for generating high-quality phased VCFs by integrating statistical phasing (All of Us + AnVIL imputation server) with long-read phasing (PacBio + ONT phased using WhatsHap).
 
+![flow_chart](Flow_Chart_Phasing_germline.png)
+
 ## Strategy for combining long-read phasing with statistical phasing
 
 ### 1. Generate scaffold using statistical phasing
