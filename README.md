@@ -51,6 +51,7 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
     - [Read Annotation](/DOCS/ANALYSIS/Long-Read_RNA-seq_Kinnex/5_Annotation.md)
 
 - [**Germline Variant Calling, *DNAscope Hybrid***](/DOCS/ANALYSIS/DNAscopeHybrid.md)
+    - [Phased Germline Variants](/DOCS/ANALYSIS/Phased_germline.md)
 
 - [**SMaHT Single-Nucleotide Variant Calling**](/DOCS/ANALYSIS/SNV_SMaHT/0_Overview.md)
 

@@ -30,6 +30,9 @@ Arguments:
 
 DNAscope Hybrid uses machine learning models trained on curated datasets to improve the accuracy of variant detection compared to traditional heuristic-based callers. For additional details and to download the model file (`Illumina PacBio whole genome`), please refer to the developer repository [here](https://github.com/Sentieon/sentieon-models).
 
+
+#### `Variant calls with MLrejected FILTER status failed the DNAModelApply step and are included only for high sensitivity purposes. These should be removed for general analyses!`
+
 ## Implementation with Sentieon
 
 The pipeline implementation uses the Sentieon DNAscope Hybrid algorithm, which is part of the Sentieon DNASeq toolkit.
@@ -48,5 +51,6 @@ All the relevant code can be accessed in the GitHub repository:
 and will not render correctly in Markdown -->
 <div style="text-align: right">
     <a href="/pipelines-docs/"> Home </a> -
-    <a> <b> DNAscope Hybrid </b> </a>
+    <a> <b> DNAscope Hybrid </b> </a> -
+    <a href="Phased_germline.html"> Phased Germline </a>
 </div>
