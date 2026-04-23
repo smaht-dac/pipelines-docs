@@ -65,6 +65,10 @@ This release includes the following modules:
 | **Strelka2**        | 2.9.10    | Variant Caller             | -                                      | -                    |
 | **longcallD**       | 0.0.8     | Variant Caller             | -                                      | -                    |
 | **RUFUS**           | d1.1.7    | Variant Caller             | -                                      | -                    |
+| **Sniffles**        | 2.7.2     | Variant Caller             | -                                      | -                    |
+| **Severus**         | 1.6       | Variant Caller             | -                                      | -                    |
+| **Delly**           | 1.5.0     | Variant Caller             | -                                      | -                    |
+| **kanpig**          | 1.1.0     | Variant Caller             | -                                      | -                    |
 
 <sub> _Software_: the tool whose behavior the pipeline matches. _Algorithm_: the specific algorithm, driver, or subcommand invoked. _Source_: source for the software, when it's not the original release. </sub>
 
