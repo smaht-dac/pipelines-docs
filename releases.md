@@ -30,43 +30,47 @@ This release includes the following modules:
 
 ## Software
 
-| Software         | Category                      | Version      | Commands                                         | Source               |
-|------------------|-------------------------------|--------------|--------------------------------------------------|----------------------|
-| **BWA**          | Aligner                       | 0.7.17       | -                                                | Sentieon 202308.01   |
-| **pbmm2**        | Aligner                       | 1.13.0       | -                                                | -                    |
-| **minimap2**     | Aligner                       | 2.26         | -                                                | Sentieon 202308.01   |
-| **STAR**         | Aligner                       | 2.7.10b      | -                                                | Sentieon 202308.01   |
-| **Picard**       | Utilities                     | 3.0.0        | -                                                | -                    |
-| **Picard**       | Utilities                     | 2.9.0        | MarkDuplicates                                   | Sentieon 202308.01   |
-| **GATK**         | Utilities                     | 4.4.0.0      | -                                                | -                    |
-| **GATK**         | Utilities                     | 3.8          | RealignerTargetCreator, IndelRealigner           | Sentieon 202308.01   |
-| **GATK**         | Utilities                     | 4.1          | BaseRecalibrator, ApplyBQSR                      | Sentieon 202308.01   |
-| **methylink**    | Utilities                     | 0.6.0        | -                                                | -                    |
-| **Samtools**     | Utilities                     | 1.17         | -                                                | -                    |
-| **Bcftools**     | Utilities                     | 1.23         | -                                                | -                    |
-| **Bedtools**     | Utilities                     | 2.31.1       | -                                                | -                    |
-| **fastp**        | Utilities                     | 0.23.2       | -                                                | -                    |
-| **pbtk**         | Utilities                     | 3.4.0        | -                                                | -                    |
-| **VEP**          | Utilities                     | 114          | -                                                | -                    |
-| **minipileup**   | Utilities                     | 1.4b         | -                                                | -                    |
-| **granite-suite**   | Utilities, Variant Caller  | 0.5.0        | -                                                | -                    |
-| **FastQC**       | Quality control               | v0.12.0      | -                                                | -                    |
-| **NanoPlot**     | Quality control               | 1.44.1       | -                                                | -                    |
-| **VerifyBamID2** | Quality control               | 2.0.1        | -                                                | -                    |
-| **Kraken2**      | Quality control               | v2.1.3       | -                                                | -                    |
-| **mosdepth**     | Quality control               | v0.3.9       | -                                                | -                    |
-| **Somalier**     | Quality control               | v0.2.19      | -                                                | -                    |
-| **RSEM**         | Analysis                      | v1.3.3       | -                                                | -                    |
-| **RNA-SeQC**     | Analysis, Quality control     | 2.4.2        | -                                                | -                    |
-| **IsoSeq**       | Analysis, Quality control     | 4.2.0        | -                                                | -                    |
-| **Pigeon**       | Analysis, Quality control     | 1.3.0        | -                                                | -                    |
-| **Mutect2**      | Variant Caller                | 4.2.0.0      | -                                                | Sentieon 202503.01   |
-| **DNAscope Hybrid**| Variant Caller              | 1.5.0        | -                                                | Sentieon 202503.01   |
-| **Strelka2**     | Variant Caller                | 2.9.10       | -                                                | -                    |
-| **longcallD**    | Variant Caller                | 0.0.8        | -                                                | -                    |
-| **RUFUS**        | Variant Caller                | d1.1.7       | -                                                | -                    |
+| Software            | Version   | Category                   | Command                                             | Source                              |
+|---------------------|-----------|----------------------------|-----------------------------------------------------|-------------------------------------|
+| **BWA-MEM**         | 0.7.17    | Aligner                    | -                                                   | Sentieon 202308.01                  |
+| **pbmm2**           | 1.13.0    | Aligner                    | -                                                   | -                                   |
+| **minimap2**        | 2.26      | Aligner                    | -                                                   | Sentieon 202308.01                  |
+| **STAR**            | 2.7.10b   | Aligner                    | -                                                   | Sentieon 202308.01                  |
+| **Picard**          | 3.0.0     | Utilities                  | -                                                   | -                                   |
+| **Picard**          | 2.9.0     | Utilities                  | LocusCollector + Dedup [MarkDuplicates]             | Sentieon 202308.01                  |
+| **GATK**            | 4.4.0.0   | Utilities                  | -                                                   | -                                   |
+| **GATK**            | 3.8       | Utilities                  | Realigner [RealignerTargetCreator + IndelRealigner] | Sentieon 202308.01                  |
+| **GATK**            | 4.1       | Utilities                  | QualCal [BaseRecalibrator], ReadWriter [ApplyBQSR]  | Sentieon 202308.01                  |
+| **methylink**       | 0.6.0     | Utilities                  | -                                                   | -                                   |
+| **Samtools**        | 1.17      | Utilities                  | -                                                   | -                                   |
+| **Bcftools**        | 1.23      | Utilities                  | -                                                   | -                                   |
+| **Bedtools**        | 2.31.1    | Utilities                  | -                                                   | -                                   |
+| **fastp**           | 0.23.2    | Utilities                  | -                                                   | -                                   |
+| **pbtk**            | 3.4.0     | Utilities                  | -                                                   | -                                   |
+| **VEP**             | 114       | Utilities                  | -                                                   | -                                   |
+| **minipileup**      | 1.4b      | Utilities                  | -                                                   | -                                   |
+| **granite-suite**   | 0.5.0     | Utilities, Variant Caller  | -                                                   | -                                   |
+| **FastQC**          | v0.12.0   | Quality control            | -                                                   | -                                   |
+| **NanoPlot**        | 1.44.1    | Quality control            | -                                                   | -                                   |
+| **VerifyBamID2**    | 2.0.1     | Quality control            | -                                                   | -                                   |
+| **Kraken2**         | v2.1.3    | Quality control            | -                                                   | -                                   |
+| **mosdepth**        | v0.3.9    | Quality control            | -                                                   | -                                   |
+| **Somalier**        | v0.2.19   | Quality control            | -                                                   | -                                   |
+| **RSEM**            | v1.3.3    | Analysis                   | -                                                   | -                                   |
+| **RNA-SeQC**        | 2.4.2     | Analysis, Quality control  | -                                                   | -                                   |
+| **IsoSeq**          | 4.2.0     | Analysis, Quality control  | -                                                   | -                                   |
+| **Pigeon**          | 1.3.0     | Analysis, Quality control  | -                                                   | -                                   |
+| **Mutect2**         | 4.2.0.0   | Variant Caller             | TNhaplotyper2                                       | Sentieon 202503.01                  |
+| **DNAscope Hybrid** | 1.5.0     | Variant Caller             | -                                                   | Sentieon 202503.01                  |
+| **Strelka2**        | 2.9.10    | Variant Caller             | -                                                   | -                                   |
+| **longcallD**       | 0.0.8     | Variant Caller             | -                                                   | -                                   |
+| **RUFUS**           | d1.1.7    | Variant Caller             | -                                                   | -                                   |
+| **Sniffles**        | 2.7.2     | Variant Caller             | -                                                   | -                                   |
+| **Severus**         | 1.6       | Variant Caller             | -                                                   | -                                   |
+| **Delly**           | 1.5.0     | Variant Caller             | -                                                   | -                                   |
+| **kanpig**          | 1.1.0     | Variant Caller             | -                                                   | -                                   |
 
-<sub>_Commands_: subset of commands used from the corresponding version; _Source_: source for the software, when it's not the original release</sub>
+<sub> _Command_: the specific subcommand or driver invoked, when applicable; bracketed names indicate the name of the equivalent algorithm. _Source_: source for the software, when it's not the original release. </sub>
 
 # Older Releases
 
