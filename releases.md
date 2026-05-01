@@ -67,7 +67,7 @@ This release includes the following modules:
 | **RUFUS**           | d1.1.7    | Variant Caller             | -                                                   | -                                   |
 | **Sniffles**        | 2.7.2     | Variant Caller             | -                                                   | -                                   |
 | **Severus**         | 1.6       | Variant Caller             | -                                                   | -                                   |
-| **Delly**           | 1.5.0     | Variant Caller             | -                                                   | -                                   |
+| **Delly**           | 1.7.3     | Variant Caller             | -                                                   | -                                   |
 | **kanpig**          | 1.1.0     | Variant Caller             | -                                                   | -                                   |
 
 <sub> _Command_: the specific subcommand or driver invoked, when applicable; bracketed names indicate the name of the equivalent algorithm. _Source_: source for the software, when it's not the original release. </sub>
