@@ -54,21 +54,25 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
     - [Phased Germline Variants](/DOCS/ANALYSIS/Phased_germline.md)
 
-- [**SMaHT Single-Nucleotide Variant Calling**](/DOCS/ANALYSIS/SNV_SMaHT/0_Overview.md)
+- [**SMaHT Single-Nucleotide Variant Calling**]
 
-    - **v1**
+    - [**SmahtSNV v1.0.0 Pipeline Overview**](/DOCS/ANALYSIS/SNV_SMaHT/v1/0_Overview.md)
 
-        - [Short-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/1_Short_Read_Calling.md)
-        - [Long-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/2_Long_Read_Calling.md)
-        - [Calls Merging and Normalization](/DOCS/ANALYSIS/SNV_SMaHT/3_Calls_Merging.md)
-        - [Hierarchical Filtering](/DOCS/ANALYSIS/SNV_SMaHT/4_Filtering.md)
-        - [Cross-Technology Validation](/DOCS/ANALYSIS/SNV_SMaHT/5_Cross_Validation.md)
-        - [Donor-Level Refinement](/DOCS/ANALYSIS/SNV_SMaHT/6_Donor_Level_Refinement.md)
-        - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/7_Confidence_Designation.md)
+        - [Short-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/v1/1_Short_Read_Calling.md)
+        - [Long-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/v1/2_Long_Read_Calling.md)
+        - [Calls Merging and Normalization](/DOCS/ANALYSIS/SNV_SMaHT/v1/3_Calls_Merging.md)
+        - [Hierarchical Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v1/4_Filtering.md)
+        - [Cross-Technology Validation](/DOCS/ANALYSIS/SNV_SMaHT/v1/5_Cross_Validation.md)
+        - [Donor-Level Refinement](/DOCS/ANALYSIS/SNV_SMaHT/v1/6_Donor_Level_Refinement.md)
+        - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/v1/7_Confidence_Designation.md)
     
-    - **v2**
+    - [**SmahtSNV v2.0.0 Pipeline Updates and Overview**](/DOCS/ANALYSIS/SNV_SMaHT/v2/0_Overview.md)
 
-        - [SMaHT SNV v2 Pipeline Description](/DOCS/ANALYSIS/SNV_SMaHT/8_SmahtSNV_2.0.0_Pipeline_Description.md)
+        - [Somatic SNV Callers](/DOCS/ANALYSIS/SNV_SMaHT/v2/1_SNV_Callers.md)
+        - [Short-Read Based Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v2/2_Short_Read_Filtering.md)
+        - [Long-Read Based Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v2/2_Long_Read_Filtering.md)
+        - [Cross-Evidence Classification](/DOCS/ANALYSIS/SNV_SMaHT/v2/4_Cross_Evidence_Classification.md)
+        - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/v2/5_Confidence_Designation.md)
 
 ##### REFERENCE FILES
 
