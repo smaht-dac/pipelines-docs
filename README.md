@@ -56,13 +56,19 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
 - [**SMaHT Single-Nucleotide Variant Calling**](/DOCS/ANALYSIS/SNV_SMaHT/0_Overview.md)
 
-    - [Short-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/1_Short_Read_Calling.md)
-    - [Long-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/2_Long_Read_Calling.md)
-    - [Calls Merging and Normalization](/DOCS/ANALYSIS/SNV_SMaHT/3_Calls_Merging.md)
-    - [Hierarchical Filtering](/DOCS/ANALYSIS/SNV_SMaHT/4_Filtering.md)
-    - [Cross-Technology Validation](/DOCS/ANALYSIS/SNV_SMaHT/5_Cross_Validation.md)
-    - [Donor-Level Refinement](/DOCS/ANALYSIS/SNV_SMaHT/6_Donor_Level_Refinement.md)
-    - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/7_Confidence_Designation.md)
+    - **v1**
+
+        - [Short-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/1_Short_Read_Calling.md)
+        - [Long-Read Variant Calling](/DOCS/ANALYSIS/SNV_SMaHT/2_Long_Read_Calling.md)
+        - [Calls Merging and Normalization](/DOCS/ANALYSIS/SNV_SMaHT/3_Calls_Merging.md)
+        - [Hierarchical Filtering](/DOCS/ANALYSIS/SNV_SMaHT/4_Filtering.md)
+        - [Cross-Technology Validation](/DOCS/ANALYSIS/SNV_SMaHT/5_Cross_Validation.md)
+        - [Donor-Level Refinement](/DOCS/ANALYSIS/SNV_SMaHT/6_Donor_Level_Refinement.md)
+        - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/7_Confidence_Designation.md)
+    
+    - **v2**
+
+        - [SMaHT SNV v2 Pipeline Description](/DOCS/ANALYSIS/SNV_SMaHT/8_SmahtSNV_2.0.0_Pipeline_Description.md)
 
 ##### REFERENCE FILES
 
