@@ -16,10 +16,10 @@
 and will not render correctly in Markdown -->
 <div style="text-align: right">
    <a href="/pipelines-docs/"> Home </a> -
-   <a href="0_Overview.md"> Overview </a> -
-   <a href="1_SNV_Callers.md"> Somatic SNV Callers </a> -
-   <a href="2_Short_Read_Filtering.md"> Short-Read Based Filtering </a> -
+   <a href="0_Overview.html"> Overview </a> -
+   <a href="1_SNV_Callers.html"> Somatic SNV Callers </a> -
+   <a href="2_Short_Read_Filtering.html"> Short-Read Based Filtering </a> -
    <a> <b> Long-Read Based Filtering </b> </a> -
-   <a href="4_Cross_Evidence_Classification.md"> Cross-Evidence Classification </a> -
-   <a href="5_Confidence_Designation.md"> Confidence Designation </a> 
+   <a href="4_Cross_Evidence_Classification.html"> Cross-Evidence Classification </a> -
+   <a href="5_Confidence_Designation.html"> Confidence Designation </a> 
 </div>
