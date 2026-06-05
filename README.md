@@ -54,7 +54,7 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
     - [Phased Germline Variants](/DOCS/ANALYSIS/Phased_germline.md)
 
-- [**SMaHT Single-Nucleotide Variant Calling**]
+- **SMaHT Single-Nucleotide Variant Calling**
 
     - [**SmahtSNV v1.0.0 Pipeline Overview**](/DOCS/ANALYSIS/SNV_SMaHT/v1/0_Overview.md)
 
@@ -70,7 +70,7 @@ Welcome to the documentation for SMaHT analysis pipelines and associated resourc
 
         - [Somatic SNV Callers](/DOCS/ANALYSIS/SNV_SMaHT/v2/1_SNV_Callers.md)
         - [Short-Read Based Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v2/2_Short_Read_Filtering.md)
-        - [Long-Read Based Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v2/2_Long_Read_Filtering.md)
+        - [Long-Read Based Filtering](/DOCS/ANALYSIS/SNV_SMaHT/v2/3_Long_Read_Filtering.md)
         - [Cross-Evidence Classification](/DOCS/ANALYSIS/SNV_SMaHT/v2/4_Cross_Evidence_Classification.md)
         - [Confidence Designation](/DOCS/ANALYSIS/SNV_SMaHT/v2/5_Confidence_Designation.md)
 
