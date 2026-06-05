@@ -29,5 +29,5 @@ and will not render correctly in Markdown -->
     <a href="2_Short_Read_Filtering.md"> Short-Read Based Filtering </a> -
     <a href="3_Long_Read_Filtering.md"> Long-Read Based Filtering </a> -
     <a href="4_Cross_Evidence_Classification.md"> Cross-Evidence Classification </a> -
-    <a> <b> Confidence Designation </b> </a> -
+    <a> <b> Confidence Designation </b> </a> 
 </div>
